@@ -62,6 +62,7 @@ tasks/
 - Nango 是 OAuth、connection、token refresh 和 provider token 管理层，不是 Skill、Memory、Workflow 优化系统。
 - 本仓库不会直接 vendor `agno/` 和 `nango/` 上游源码；正式实现时应使用 `runtime/agno/` 和 `integrations/nango/` 做产品级适配层。
 - 没有非常明确且经过确认的必要性，不要轻易修改 Agno 或 Nango 上游源码；默认围绕它们做适配、封装、组合和治理。
+- 每次开发任务都必须先做架构归位：确认能力应该落在 Agno runtime、Nango connector、FastAPI 业务主控、前端交互还是 packages 领域包，不能为了速度牺牲边界。
 - 所有外部读写动作必须经过 Tool Gateway、权限校验、审批策略和审计日志。
 - Workflow 只用于稳定、高频、可测试、可审批的流程；开放探索优先沉淀为 Skill、Tool、Team、Workflow Skeleton 或 Capability Candidate。
 

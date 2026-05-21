@@ -76,6 +76,47 @@ tasks                     技术验证任务
 
 即使需要改，也应优先在 `runtime/agno` 或 `integrations/nango` 中隔离补丁和适配逻辑，避免把业务规则散落进上游框架。
 
+## 3.1 每次开发前的架构归位约束
+
+每一次开发任务，不论大小，都必须先考虑架构正确性，再写代码。
+
+开发前必须回答：
+
+- 这个能力应该属于 Agno runtime 层、Nango connector 层、FastAPI 业务主控层、前端交互层，还是 packages 领域/能力包？
+- 这个实现有没有破坏我们对 Agno 的定位：Agent/Team/Workflow runtime，而不是租户、审批、OAuth、能力治理事实源？
+- 这个实现有没有破坏我们对 Nango 的定位：OAuth、connection、token refresh、provider token 管理层，而不是 Skill、Memory、Workflow 优化系统？
+- 这个实现有没有把本该属于 `runtime/agno` 的通用 agent/orchestrator 能力写进 `apps/api`？
+- 这个实现有没有把本该属于 `integrations/nango` 或 Connector Gateway 的第三方连接逻辑散落进 Agent、Workflow 或普通后端 service？
+- 这个实现有没有让 FastAPI 后端变成“什么都做”的大泥球？
+- 这个实现是否仍然满足 Tool Gateway、Approval、Audit、Capability Registry 的边界？
+
+后端代码定位：
+
+```text
+apps/api
+  = SaaS 业务主控层
+  = 租户、身份、权限、业务 API、审批、审计、状态持久化、调用 runtime/integration 适配层
+```
+
+后端不应该直接承担：
+
+- Agno 的通用 Orchestrator 能力。
+- Agent/Team/Workflow runtime 内部能力。
+- Nango provider token 细节。
+- Shopify provider 原始接口散落调用。
+- Capability Retrieval 的全部智能逻辑硬编码。
+
+如果一个需求看起来可以快速写在 `apps/api`，也必须先判断它是不是更应该进入：
+
+- `runtime/agno`。
+- `integrations/nango`。
+- `integrations/shopify`。
+- `packages/capability-registry`。
+- `packages/tool-gateway`。
+- `packages/ecommerce-domain`。
+
+不能为了开发速度牺牲长期架构边界。
+
 ## 4. 多租户与身份约束
 
 所有核心业务对象必须可追溯到租户上下文。
@@ -483,6 +524,14 @@ Chat 工作台
 所有实现都要优先贴合已有 PRD、cases、tasks。
 
 新增重要架构判断时，必须同步更新文档。
+
+每次开发任务都必须做架构归位检查：
+
+- 先判断能力应该落在哪一层。
+- 再确认没有越过 Agno、Nango、FastAPI、Tool Gateway、Approval、Audit 的边界。
+- 最后才开始实现。
+
+如果实现过程中发现边界不清晰，先补文档或拆接口，不要直接把逻辑塞进最近的文件。
 
 代码变更应保持小步提交，提交信息说明业务目的。
 
