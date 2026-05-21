@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import type { KeyboardEvent } from "react";
 import type { ChatResponse, PlanDraft, WorkflowRun } from "@prime-agent/shared";
 import { approveRequest, confirmPlanDraft, rejectRequest, sendChatMessage } from "../src/lib/api";
 
@@ -10,11 +11,12 @@ type ChatMessage = {
 };
 
 export default function WorkspacePage() {
-  const [input, setInput] = useState("帮我优化 Shopify 商品 prod_demo_001 的 Listing，写回前需要审批");
+  const [input, setInput] = useState("");
+  const [conversationId, setConversationId] = useState<string | undefined>();
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       role: "assistant",
-      content: "告诉我你想做的跨境电商任务。我会先生成计划，写入外部系统前会要求审批。"
+      content: "你可以自由描述跨境电商任务。我会先判断意图，必要时追问，不会默认把任务固化成 Workflow。"
     }
   ]);
   const [planDraft, setPlanDraft] = useState<PlanDraft | null>(null);
@@ -44,14 +46,23 @@ export default function WorkspacePage() {
     setMessages((current) => [...current, { role: "user", content: input }]);
 
     try {
-      const response: ChatResponse = await sendChatMessage(input);
+      const response: ChatResponse = await sendChatMessage(input, conversationId);
+      setConversationId(response.conversation_id);
       setMessages((current) => [...current, { role: "assistant", content: response.message }]);
       setPlanDraft(response.plan_draft);
       setWorkflowRun(null);
+      setInput("");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Unknown error");
     } finally {
       setIsLoading(false);
+    }
+  }
+
+  function handleComposerKeyDown(event: KeyboardEvent<HTMLTextAreaElement>) {
+    if (event.key === "Enter" && !event.shiftKey) {
+      event.preventDefault();
+      void handleSend();
     }
   }
 
@@ -115,7 +126,13 @@ export default function WorkspacePage() {
   return (
     <main className="workspace">
       <aside className="sidebar">
-        <h1 className="brand">PrimeAgent</h1>
+        <div className="brand-lockup">
+          <div className="brand-mark">P</div>
+          <div>
+            <h1 className="brand">PrimeAgent</h1>
+            <div className="brand-subtitle">Ecommerce Agent OS</div>
+          </div>
+        </div>
         <div className="section-title">Workspace</div>
         <div className="nav-item">
           <span>Tenant</span>
@@ -137,23 +154,40 @@ export default function WorkspacePage() {
       <section className="main">
         <header className="chat-header">
           <div>
-            <strong>Chat 工作台</strong>
-            <div className="muted">Conversation + PlanDraft + Approval MVP</div>
+            <strong>跨境电商任务中枢</strong>
+            <div className="muted">自由意图 → Orchestrator → PlanDraft / ExplorationRun</div>
           </div>
-          <span className="badge high">Tool Gateway guarded</span>
+          <div className="header-actions">
+            <span className="badge">Conversation {conversationId ? "active" : "new"}</span>
+            <span className="badge high">Tool Gateway guarded</span>
+          </div>
         </header>
 
         <div className="chat-thread">
-          {messages.map((message, index) => (
-            <div className={`message ${message.role}`} key={`${message.role}-${index}`}>
-              {message.content}
+          <div className="thread-inner">
+            <div className="intent-strip">
+              <span>试试输入：</span>
+              <button onClick={() => setInput("我现在不做 workflow，先围绕一款新品做开放式选品探索")}>先探索</button>
+              <button onClick={() => setInput("分析这个竞品链接，看看它的卖点和 Shopify 上架机会")}>竞品分析</button>
+              <button onClick={() => setInput("帮我优化 Shopify 商品 prod_demo_001 的 Listing，写回前需要审批")}>Listing 写回</button>
             </div>
-          ))}
+            {messages.map((message, index) => (
+              <div className={`message ${message.role}`} key={`${message.role}-${index}`}>
+                <div className="message-role">{message.role === "assistant" ? "Orchestrator" : "You"}</div>
+                <div>{message.content}</div>
+              </div>
+            ))}
+          </div>
           {error ? <div className="message assistant">请求失败：{error}</div> : null}
         </div>
 
         <div className="composer">
-          <textarea value={input} onChange={(event) => setInput(event.target.value)} />
+          <textarea
+            value={input}
+            placeholder="输入你的目标。Enter 发送，Shift + Enter 换行。"
+            onChange={(event) => setInput(event.target.value)}
+            onKeyDown={handleComposerKeyDown}
+          />
           <button className="primary" disabled={isLoading} onClick={handleSend}>
             发送
           </button>
@@ -270,4 +304,3 @@ function ApprovalPanel({
     </section>
   );
 }
-

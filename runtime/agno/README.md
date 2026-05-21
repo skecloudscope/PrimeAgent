@@ -6,6 +6,6 @@
 
 - 不直接修改 Agno 上游源码。
 - Runtime Builder 负责把业务版本快照转换成 Agno Agent / Team / Workflow。
+- Orchestrator Runtime 负责自由意图识别、会话状态、路由决策和 PlanDraft 生成。
 - 写外部系统的能力只能通过 Tool Gateway callable 暴露。
 - Agno trace 需要转换成平台 RunGraph。
-

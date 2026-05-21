@@ -10,11 +10,11 @@ const demoHeaders = {
   "X-Shop-Id": "shop_demo"
 };
 
-export async function sendChatMessage(message: string): Promise<ChatResponse> {
+export async function sendChatMessage(message: string, conversationId?: string): Promise<ChatResponse> {
   const response = await fetch(`${API_BASE_URL}/api/chat`, {
     method: "POST",
     headers: demoHeaders,
-    body: JSON.stringify({ message, shop_id: "shop_demo" })
+    body: JSON.stringify({ message, conversation_id: conversationId, shop_id: "shop_demo" })
   });
 
   if (!response.ok) {
@@ -62,4 +62,3 @@ export async function rejectRequest(approvalId: string): Promise<WorkflowRun> {
 
   return response.json();
 }
-

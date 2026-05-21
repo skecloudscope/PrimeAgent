@@ -17,6 +17,29 @@ class WorkflowService:
             raise HTTPException(status_code=409, detail="plan_draft_not_confirmable")
 
         plan.status = "confirmed"
+        if "shopify_product_write_tool" not in plan.required_capabilities:
+            workflow_run = WorkflowRun(
+                id=f"wr_{uuid4().hex[:10]}",
+                tenant_id=ctx.tenant_id,
+                workspace_id=ctx.workspace_id,
+                user_id=ctx.user_id,
+                plan_draft_id=plan.id,
+                workflow_key="exploration_run_mock_v1",
+                status=RunStatus.completed,
+                timeline=[
+                    {"type": "exploration_started", "label": "Exploration plan accepted"},
+                    {"type": "capability_search", "label": "Mock Capability Retrieval selected candidates"},
+                    {"type": "run_graph", "label": "RunGraph draft recorded for future sedimentation"},
+                ],
+                final_output={
+                    "message": "Exploration plan accepted. No external write action was executed.",
+                    "capabilities": plan.required_capabilities,
+                },
+            )
+            store.workflow_runs[workflow_run.id] = workflow_run
+            self._audit(ctx, "exploration_run.mock_completed", {"workflow_run_id": workflow_run.id})
+            return workflow_run
+
         product_id = plan.known_inputs["product_id"]
         listing_diff = self._mock_listing_diff(product_id)
         workflow_run = WorkflowRun(
@@ -115,4 +138,3 @@ class WorkflowService:
 
 
 workflow_service = WorkflowService()
-
