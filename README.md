@@ -40,6 +40,9 @@ Conversation
 ## 当前目录
 
 ```text
+AGENTS.md
+  项目级开发约束，后续写代码和改架构时必须优先遵守。
+
 PRD/
   最终产品和架构 PRD。
 
@@ -61,3 +64,9 @@ tasks/
 - 所有外部读写动作必须经过 Tool Gateway、权限校验、审批策略和审计日志。
 - Workflow 只用于稳定、高频、可测试、可审批的流程；开放探索优先沉淀为 Skill、Tool、Team、Workflow Skeleton 或 Capability Candidate。
 
+## 开发前必读
+
+- [AGENTS.md](/Users/ske/PrimeAgent/AGENTS.md)
+- [PRD/01-跨境电商Agent平台详细PRD.md](/Users/ske/PrimeAgent/PRD/01-跨境电商Agent平台详细PRD.md)
+- [tasks/README.md](/Users/ske/PrimeAgent/tasks/README.md)
+- [cases/README.md](/Users/ske/PrimeAgent/cases/README.md)
