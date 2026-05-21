@@ -26,6 +26,5 @@ coverage/
 logs/
 
 # Local upstream source references should stay outside this repo.
-agno/
-nango/
-
+/agno/
+/nango/
