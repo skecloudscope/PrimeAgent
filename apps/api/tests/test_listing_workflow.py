@@ -86,3 +86,43 @@ def test_free_intent_conversation_keeps_context_without_repeating_question() -> 
     confirmed_payload = confirmed.json()
     assert confirmed_payload["workflow_key"] == "exploration_run_mock_v1"
     assert confirmed_payload["approval_request_id"] is None
+
+
+def test_orchestrator_routes_capability_creation_without_running_workflow() -> None:
+    client = TestClient(app)
+
+    skill = client.post(
+        "/api/chat",
+        headers=HEADERS,
+        json={"message": "帮我创建一个跨境电商竞品卖点提炼 Skill"},
+    )
+    assert skill.status_code == 200
+    skill_payload = skill.json()
+    assert skill_payload["suggested_next_action"] == "confirm_capability_draft_plan"
+    assert skill_payload["plan_draft"]["goal"] == "创建 Skill 草稿"
+    assert any("不会自动发布到 active" in item for item in skill_payload["plan_draft"]["assumptions"])
+
+    mcp = client.post(
+        "/api/chat",
+        headers=HEADERS,
+        json={"message": "帮我创建一个 Amazon 评论分析 MCP"},
+    )
+    assert mcp.status_code == 200
+    mcp_payload = mcp.json()
+    assert mcp_payload["plan_draft"]["goal"] == "创建 MCP / Connector 草稿"
+    assert mcp_payload["plan_draft"]["risk_level"] == "high"
+
+
+def test_product_launch_uses_light_exploration_not_listing_workflow() -> None:
+    client = TestClient(app)
+
+    response = client.post(
+        "/api/chat",
+        headers=HEADERS,
+        json={"message": "我想要做产品上架，但现在资料还不完整"},
+    )
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["plan_draft"]["goal"] == "新品/商品上架开放探索"
+    assert "轻量 ExplorationRun" in payload["message"]
+    assert "shopify_product_write_tool" not in payload["plan_draft"]["required_capabilities"]

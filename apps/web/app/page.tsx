@@ -169,7 +169,10 @@ export default function WorkspacePage() {
               <span>试试输入：</span>
               <button onClick={() => setInput("我现在不做 workflow，先围绕一款新品做开放式选品探索")}>先探索</button>
               <button onClick={() => setInput("分析这个竞品链接，看看它的卖点和 Shopify 上架机会")}>竞品分析</button>
-              <button onClick={() => setInput("帮我优化 Shopify 商品 prod_demo_001 的 Listing，写回前需要审批")}>Listing 写回</button>
+              <button onClick={() => setInput("我想要做产品上架，但现在资料还不完整")}>产品上架</button>
+              <button onClick={() => setInput("帮我创建一个跨境电商竞品卖点提炼 Skill")}>创建 Skill</button>
+              <button onClick={() => setInput("帮我创建一个 Listing 优化 Agent")}>创建 Agent</button>
+              <button onClick={() => setInput("帮我创建一个 Amazon 评论分析 MCP")}>创建 MCP</button>
             </div>
             {messages.map((message, index) => (
               <div className={`message ${message.role}`} key={`${message.role}-${index}`}>
