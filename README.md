@@ -71,3 +71,38 @@ tasks/
 - [PRD/01-跨境电商Agent平台详细PRD.md](/Users/ske/PrimeAgent/PRD/01-跨境电商Agent平台详细PRD.md)
 - [tasks/README.md](/Users/ske/PrimeAgent/tasks/README.md)
 - [cases/README.md](/Users/ske/PrimeAgent/cases/README.md)
+
+## 本地开发
+
+安装前端依赖：
+
+```bash
+npm install
+```
+
+安装后端依赖：
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r apps/api/requirements-dev.txt
+```
+
+启动后端：
+
+```bash
+npm run dev:api
+```
+
+启动前端：
+
+```bash
+npm run dev:web
+```
+
+检查与测试：
+
+```bash
+npm run build:web
+npm run check:api
+npm run test:api
+```
