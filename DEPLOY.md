@@ -31,6 +31,13 @@ Copy the whole `PrimeAgent` directory to the Linux server, including:
 - `docker-compose.prod.yml`
 - `.env`
 
+Before starting, run the preflight check:
+
+```bash
+cd /path/to/PrimeAgent
+bash scripts/check-linux-deploy.sh
+```
+
 Start with:
 
 ```bash
