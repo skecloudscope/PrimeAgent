@@ -239,9 +239,16 @@ function formatBytes(size: number) {
   return `${(size / 1024 / 1024).toFixed(1)} MB`;
 }
 
+function createId() {
+  const random = typeof crypto !== "undefined" && typeof crypto.getRandomValues === "function"
+    ? crypto.getRandomValues(new Uint32Array(4))
+    : [Math.random() * 0xffffffff, Math.random() * 0xffffffff, Math.random() * 0xffffffff, Math.random() * 0xffffffff];
+  return Array.from(random, (value) => Math.floor(value).toString(16).padStart(8, "0")).join("-");
+}
+
 function attachmentFromFile(file: File): ChatAttachment {
   return {
-    id: crypto.randomUUID(),
+    id: createId(),
     name: file.name || (file.type.startsWith("image/") ? "pasted-image.png" : "attachment"),
     type: file.type || "application/octet-stream",
     size: file.size,
@@ -404,7 +411,7 @@ function messagesFromHistory(history: unknown): ChatMessage[] {
       const role = compactValue(item.role);
       const normalizedRole: ChatMessage["role"] = role === "assistant" || role === "system" ? role : "user";
       return {
-        id: compactValue(item.id) !== "-" ? compactValue(item.id) : crypto.randomUUID(),
+        id: compactValue(item.id) !== "-" ? compactValue(item.id) : createId(),
         role: normalizedRole,
         content: compactValue(item.content)
       };
@@ -890,7 +897,7 @@ export default function Home() {
   const [showRunDetails, setShowRunDetails] = useState(false);
   const fileInputRef = useRef<HTMLInputElement | null>(null);
   const messagesRef = useRef<HTMLDivElement | null>(null);
-  const sessionId = useRef(`primeagent-ui-${crypto.randomUUID()}`);
+  const sessionId = useRef(`primeagent-ui-${createId()}`);
   const userId = process.env.NEXT_PUBLIC_USER_ID || "local_user";
   const memoryOptimizeModel = process.env.NEXT_PUBLIC_AGNO_MEMORY_OPTIMIZE_MODEL;
 
@@ -3860,7 +3867,7 @@ function renderStudioTeamsPage() {
   }
 
   function startNewSession() {
-    sessionId.current = `primeagent-ui-${crypto.randomUUID()}`;
+    sessionId.current = `primeagent-ui-${createId()}`;
     setMessages([]);
     setInput("");
     setFiles([]);
@@ -3937,12 +3944,12 @@ function renderStudioTeamsPage() {
     const userContent = prompt || "Please process the uploaded attachments.";
 
     const userMessage: ChatMessage = {
-      id: crypto.randomUUID(),
+      id: createId(),
       role: "user",
       content: userContent,
       attachments: attachmentsForMessage
     };
-    const assistantId = crypto.randomUUID();
+    const assistantId = createId();
     const assistantMessage: ChatMessage = {
       id: assistantId,
       role: "assistant",
