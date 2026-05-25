@@ -8,3 +8,11 @@ __pycache__
 .pytest_cache
 .DS_Store
 platform/agno/.git
+agent-platform/.env
+agent-platform/.env.production
+frontend/studio-qa
+frontend/chat-qa
+frontend/session-qa
+frontend/trace-qa
+frontend/metrics-qa
+frontend/shell-qa
