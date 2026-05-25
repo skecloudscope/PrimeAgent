@@ -15,6 +15,7 @@ import {
   Code2,
   Copy,
   Database,
+  Download,
   FileJson,
   FileText,
   Github,
@@ -47,7 +48,7 @@ import {
   User,
   X
 } from "lucide-react";
-import { type ClipboardEvent, type ChangeEvent, type CSSProperties, useEffect, useMemo, useRef, useState } from "react";
+import { isValidElement, type ClipboardEvent, type ChangeEvent, type CSSProperties, type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeSanitize from "rehype-sanitize";
 import remarkGfm from "remark-gfm";
@@ -55,6 +56,7 @@ import {
   agnoFetch,
   type AgnoComponent,
   type ApiResult,
+  type AgnoStreamEvent,
   type ChatAttachment,
   type ChatMessage,
   type ComponentType,
@@ -303,6 +305,31 @@ function compactValue(value: unknown): string {
   if (typeof value === "number" || typeof value === "boolean") return String(value);
   if (Array.isArray(value)) return value.map(compactValue).filter((item) => item !== "-").join(", ") || "-";
   return JSON.stringify(value);
+}
+
+type ToolCallView = {
+  id: string;
+  name: string;
+  status: "running" | "completed" | "error";
+};
+
+function toolCallsForEvents(events?: AgnoStreamEvent[]): ToolCallView[] {
+  const calls = new Map<string, ToolCallView>();
+  events?.forEach((event) => {
+    if (!event.event.startsWith("ToolCall")) return;
+    const tool = event.data.tool;
+    if (!tool || typeof tool !== "object") return;
+    const toolData = tool as Record<string, unknown>;
+    const id = compactValue(toolData.tool_call_id || toolData.id || toolData.tool_name || event.event);
+    const name = compactValue(toolData.tool_name || toolData.name || "tool");
+    const status = event.event === "ToolCallError" || toolData.tool_call_error === true
+      ? "error"
+      : event.event === "ToolCallCompleted"
+        ? "completed"
+        : "running";
+    calls.set(id, { id, name, status });
+  });
+  return Array.from(calls.values());
 }
 
 function pick(row: Record<string, unknown>, keys: string[]) {
@@ -738,6 +765,86 @@ function downloadText(filename: string, content: string, type: string) {
   anchor.click();
   URL.revokeObjectURL(url);
 }
+
+function codeLanguage(className?: string) {
+  return /language-([\w-]+)/.exec(className || "")?.[1]?.toLowerCase() || "";
+}
+
+function isHtmlArtifact(language: string, content: string) {
+  const trimmed = content.trimStart().toLowerCase();
+  return (
+    language === "html"
+    || language === "htm"
+    || ((trimmed.startsWith("<!doctype html") || trimmed.startsWith("<html")) && content.length > 500)
+  );
+}
+
+function artifactFilename(language: string) {
+  if (language === "html" || language === "htm") return "index.html";
+  return `artifact.${language || "txt"}`;
+}
+
+function artifactMime(language: string) {
+  if (language === "html" || language === "htm") return "text/html";
+  return "text/plain";
+}
+
+function CodeArtifact({ language, content }: { language: string; content: string }) {
+  const [expanded, setExpanded] = useState(false);
+  const filename = artifactFilename(language);
+  const renderHtml = language === "html" || language === "htm";
+
+  return (
+    <div className="code-artifact">
+      <div className="code-artifact-main">
+        <FileText size={18} />
+        <div>
+          <strong>{filename}</strong>
+          <span>{formatBytes(new Blob([content]).size)}</span>
+        </div>
+      </div>
+      <div className="code-artifact-actions">
+        <button type="button" onClick={() => setExpanded((current) => !current)}>
+          {expanded ? "HIDE SOURCE" : "SOURCE"}
+        </button>
+        <button type="button" onClick={() => navigator.clipboard.writeText(content)}>
+          <Copy size={14} />
+          COPY
+        </button>
+        <button type="button" onClick={() => downloadText(filename, content, artifactMime(language))}>
+          <Download size={14} />
+          DOWNLOAD
+        </button>
+      </div>
+      {renderHtml && (
+        <div className="code-artifact-preview">
+          <iframe
+            title={filename}
+            sandbox="allow-scripts allow-forms"
+            srcDoc={content}
+          />
+        </div>
+      )}
+      {expanded && <pre><code>{content}</code></pre>}
+    </div>
+  );
+}
+
+function MarkdownPre({ children }: { children?: ReactNode }) {
+  if (isValidElement(children)) {
+    const props = children.props as { className?: string; children?: ReactNode };
+    const content = String(props.children || "").replace(/\n$/, "");
+    const language = codeLanguage(props.className);
+    if (isHtmlArtifact(language, content)) {
+      return <CodeArtifact language={language || "html"} content={content} />;
+    }
+  }
+  return <pre>{children}</pre>;
+}
+
+const markdownComponents = {
+  pre: MarkdownPre
+};
 
 function tableForNav(nav: NavKey, result?: ApiResult) {
   const rows = rowsFromResult(result);
@@ -3022,7 +3129,7 @@ function renderStudioTeamsPage() {
       return (
         <div className="trace-value-card formatted">
           <button type="button" className="trace-value-copy" onClick={() => navigator.clipboard.writeText(text)} title="Copy value"><Copy size={16} /></button>
-          <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSanitize]}>{text}</ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSanitize]} components={markdownComponents}>{text}</ReactMarkdown>
         </div>
       );
     }
@@ -3599,7 +3706,7 @@ function renderStudioTeamsPage() {
                     </div>
                     {sessionTextMode === "formatted" && message.role === "assistant" ? (
                       <div className="markdown-body">
-                        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSanitize]}>{message.content}</ReactMarkdown>
+                        <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSanitize]} components={markdownComponents}>{message.content}</ReactMarkdown>
                       </div>
                     ) : (
                       <p>{message.content}</p>
@@ -4224,7 +4331,7 @@ function renderStudioTeamsPage() {
                             {running && !message.content ? "Working..." : "Run"}
                           </div>
                           <div className="markdown-body">
-                            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSanitize]}>
+                            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSanitize]} components={markdownComponents}>
                               {message.content || (running ? "Running..." : "")}
                             </ReactMarkdown>
                           </div>
@@ -4239,6 +4346,17 @@ function renderStudioTeamsPage() {
                               {attachment.previewUrl ? <img src={attachment.previewUrl} alt={attachment.name} /> : <FileText size={16} />}
                               <span>{attachment.name}</span>
                             </div>
+                          ))}
+                        </div>
+                      )}
+                      {toolCallsForEvents(message.events).length > 0 && (
+                        <div className="tool-call-strip">
+                          {toolCallsForEvents(message.events).map((toolCall) => (
+                            <span key={toolCall.id} className={toolCall.status}>
+                              <SquareTerminal size={12} />
+                              {toolCall.name}
+                              <small>{toolCall.status}</small>
+                            </span>
                           ))}
                         </div>
                       )}

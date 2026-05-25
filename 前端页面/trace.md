@@ -15,3 +15,4 @@
 ![alt text](image-28.png)
 点击具体的session之后
 ![alt text](image-29.png)
+![alt text](image-30.png)

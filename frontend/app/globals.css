@@ -961,6 +961,81 @@ a {
   padding: 0;
 }
 
+.code-artifact {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 12px;
+  margin: 0 0 12px;
+}
+
+.code-artifact-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.code-artifact-main > div {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.code-artifact-main strong {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.code-artifact-main span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.code-artifact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.code-artifact-actions button {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-soft);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.code-artifact-preview {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  height: min(520px, 58vh);
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.code-artifact-preview iframe {
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.code-artifact pre {
+  max-height: 360px;
+  margin: 12px 0 0;
+}
+
 .markdown-body table {
   border-collapse: collapse;
   width: 100%;
@@ -974,6 +1049,7 @@ a {
 }
 
 .message-attachments,
+.tool-call-strip,
 .event-strip,
 .attachment-tray {
   display: flex;
@@ -984,6 +1060,7 @@ a {
 
 .message-attachment,
 .attachment-chip,
+.tool-call-strip span,
 .event-strip span {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -994,6 +1071,27 @@ a {
   padding: 5px 8px;
   color: var(--muted);
   font-size: 12px;
+}
+
+.tool-call-strip span {
+  color: var(--text);
+  background: rgba(56, 189, 248, 0.08);
+  border-color: rgba(56, 189, 248, 0.24);
+}
+
+.tool-call-strip span.completed {
+  background: rgba(34, 197, 94, 0.08);
+  border-color: rgba(34, 197, 94, 0.24);
+}
+
+.tool-call-strip span.error {
+  background: rgba(239, 68, 68, 0.08);
+  border-color: rgba(239, 68, 68, 0.24);
+}
+
+.tool-call-strip small {
+  color: var(--muted);
+  font-size: 11px;
 }
 
 .message-attachment img,
