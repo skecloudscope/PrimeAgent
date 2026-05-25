@@ -29,6 +29,17 @@ for path in "${required_paths[@]}"; do
 done
 
 echo
+if [ ! -f ".env" ]; then
+  echo "MISSING: .env"
+  missing=1
+elif ! grep -Eq '^OPENAI_API_KEY=.+$' .env; then
+  echo "MISSING: OPENAI_API_KEY in .env"
+  missing=1
+else
+  echo "OK:      .env contains OPENAI_API_KEY"
+fi
+
+echo
 echo "Build context size:"
 du -sh .
 

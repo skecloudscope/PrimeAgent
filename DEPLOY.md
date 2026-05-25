@@ -31,6 +31,14 @@ Copy the whole `PrimeAgent` directory to the Linux server, including:
 - `docker-compose.prod.yml`
 - `.env`
 
+The `.env` file is not committed to git. Create it manually on the Linux server and include at least:
+
+```bash
+OPENAI_API_KEY=sk-...
+# Optional, only if you use an OpenAI-compatible proxy:
+OPENAI_BASE_URL=https://your-openai-compatible-endpoint/v1
+```
+
 Before starting, run the preflight check:
 
 ```bash
