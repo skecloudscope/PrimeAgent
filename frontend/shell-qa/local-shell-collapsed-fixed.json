@@ -1,0 +1,7 @@
+{
+  "accountDisplay": "none",
+  "bodyText": "S\nS\nagentos\n/\nChat\nGET SUPPORT\nREFRESH\nAgents\n/\nWebSearch\n/\nNew session\nSEE CONFIG\nSESSIONS\nNEW SESSION\n\nAGENTS\n\nWebSearch\nagentos-db\nCodeSearch\nagentos-db\n\nTEAMS\n\nNone from /config\n\nWORKFLOWS\n\nNone from /config\nWebSearch\n\nConnected through the transparent bridge to /api/agno.\n\nTell me about Agno's AgentOS\nWhat's the latest research from Anthropic?\nSearch for OpenAI's latest model release\nPaste images, attach files, press Enter to send.",
+  "mainClass": "os-shell sidebar-collapsed",
+  "shellCols": "220px 622px",
+  "sidebarWidth": 220
+}

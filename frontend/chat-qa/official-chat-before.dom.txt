@@ -1,0 +1,85 @@
+- complementary:
+  - button "S ske Free":
+    - generic: S
+    - paragraph: ske
+    - paragraph: Free
+  - button:
+  - navigation:
+    - list:
+      - link "Home":
+        - /url: /
+        - paragraph: Home
+    - list:
+      - link "Chat":
+        - /url: /chat
+        - paragraph: Chat
+      - link "Sessions":
+        - /url: /sessions
+        - paragraph: Sessions
+      - link "Traces":
+        - /url: /traces
+        - paragraph: Traces
+      - button "Studio":
+        - paragraph: Studio
+      - link "Memory":
+        - /url: /memory
+        - paragraph: Memory
+      - link "Knowledge":
+        - /url: /knowledge
+        - paragraph: Knowledge
+      - link "Metrics":
+        - /url: /metrics
+        - paragraph: Metrics
+      - link "Evaluation":
+        - /url: /evaluation
+        - paragraph: Evaluation
+      - link "Approvals":
+        - /url: /approvals
+        - paragraph: Approvals
+      - link "Scheduler":
+        - /url: /scheduler
+        - paragraph: Scheduler
+    - list:
+      - button "Settings":
+        - paragraph: Settings
+    - link:
+      - /url: https://docs.agno.com
+    - link:
+      - /url: https://discord.gg/4MtYHHrgA8
+    - link:
+      - /url: https://github.com/agno-agi/agno
+    - generic: 黎旭
+    - paragraph: 黎 旭东
+- navigation "breadcrumb":
+  - list:
+    - button "agentos Active":
+      - generic: agentos
+      - status "Active"
+    - link "Chat" [disabled]
+- link "GET SUPPORT":
+  - /url: mailto:support@agno.com
+  - button "GET SUPPORT":
+    - text: GET SUPPORT
+- button "Refresh page":
+  - paragraph: REFRESH
+- main:
+  - navigation "breadcrumb":
+    - list:
+      - button:
+      - button "WebSearch":
+        - generic: WebSearch
+  - button:
+  - button:
+  - button:
+  - button [disabled]:
+  - paragraph: New Session
+  - paragraph: Enter your input to get started with your agent.
+  - paragraph: Tell me about Agno's AgentOS
+  - paragraph: What's the latest research from Anthropic?
+  - paragraph: Search for OpenAI's latest model release
+- textbox "Ask anything..." [active]
+- button:
+- button:
+- paragraph: WebSearch
+- button [disabled]:
+- region "Notifications alt+T"

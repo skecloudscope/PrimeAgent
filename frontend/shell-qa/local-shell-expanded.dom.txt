@@ -1,0 +1,56 @@
+- main:
+  - complementary:
+    - button "S":
+      - generic: S
+    - button "Collapse sidebar":
+    - navigation:
+      - button:
+      - button:
+      - button:
+      - button:
+      - button:
+      - button:
+      - button:
+      - button:
+      - button:
+      - button:
+      - button:
+    - button:
+    - link "Agno docs":
+      - /url: https://docs.agno.com
+    - link "Agno Discord":
+      - /url: https://discord.gg/4MtYHHrgA8
+    - link "Agno GitHub":
+      - /url: https://github.com/agno-agi/agno
+    - generic: S
+    - strong: ske
+    - generic: ske
+    - button "User menu":
+  - button "agentos":
+    - generic: agentos
+  - generic: /
+  - strong: Chat
+  - button "Agents"
+  - generic: /
+  - button "WebSearch"
+  - generic: /
+  - generic: New session
+  - button "SEE CONFIG"
+  - button "SESSIONS"
+  - button "NEW SESSION":
+    - text: NEW SESSION
+  - button "Copy AgentOS base URL":
+  - button "Copy transcript" [disabled]:
+  - button "View AgentOS session" [disabled]:
+  - button "New local chat":
+  - heading "WebSearch" [level=2]
+  - paragraph: Connected through the transparent bridge to /api/agno.
+  - button "Tell me about Agno's AgentOS"
+  - button "What's the latest research from Anthropic?"
+  - button "Search for OpenAI's latest model release"
+  - button "Attach files":
+  - textbox "Ask anything..."
+  - button "Send" [disabled]:
+  - text: Paste images, attach files, press Enter to send.
+- button "Open Next.js Dev Tools":
+- alert

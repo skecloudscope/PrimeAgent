@@ -1,0 +1,14 @@
+{
+  "accountDisplay": "grid",
+  "frameX": 234,
+  "hasSkeFree": true,
+  "navDisplay": [
+    "block",
+    "block",
+    "block",
+    "block",
+    "block"
+  ],
+  "shellDisplay": "flex",
+  "sidebarWidth": 220
+}

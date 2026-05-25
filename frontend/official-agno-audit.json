@@ -1,0 +1,4488 @@
+[
+  {
+    "name": "Home",
+    "url": "https://os.agno.com/",
+    "title": "Home | Agno",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 13,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 17,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 19,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 20,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 21,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Agents",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 22,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 23,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Config",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 24,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 25,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Config",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 26,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "All OSes",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 27,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Edit",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 28,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Delete",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 29,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Edit",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 30,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Delete",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 31,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Switch to OS",
+        "type": null
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\ntest\nGET SUPPORT\n\nREFRESH\n\nAGENTS\n\nWEBSEARCH\n\nCHAT\nCONFIG\n\nCODESEARCH\n\nCHAT\nCONFIG\n\nALL OSES\n\ntest\n\nT T\n2 AGENTS\nEDIT\nDELETE\n\nCURRENT OS\n\nagentos\n\nEDIT\nDELETE\nSWITCH TO OS"
+  },
+  {
+    "name": "Chat",
+    "url": "https://os.agno.com/chat?type=agent&id=web-search",
+    "title": "Agents Chat | Agno OS",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 13,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 17,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 19,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 20,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 21,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Agents",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 22,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "WebSearch",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 23,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 24,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 25,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": true,
+        "href": null,
+        "i": 26,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 27,
+        "placeholder": "Ask anything...",
+        "tag": "TEXTAREA",
+        "text": "Ask anything...",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 28,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 29,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": true,
+        "href": null,
+        "i": 30,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\ntest\nChat\nGET SUPPORT\n\nREFRESH\n\nAgents\nWebSearch\n\nNew Session\n\nEnter your input to get started with your agent.\n\nTell me about Agno's AgentOS\n\nWhat's the latest research from Anthropic?\n\nSearch for OpenAI's latest model release\n\nWEBSEARCH"
+  },
+  {
+    "name": "Sessions",
+    "url": "https://os.agno.com/sessions?sort_by=updated_at_desc&type=all&page=1&limit=25",
+    "title": "Sessions | Agno",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 13,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 17,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 19,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 20,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 21,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "View:All",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 22,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "EXPORT",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 23,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 24,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Updated at",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 25,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 26,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 27,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 28,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 29,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 30,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 31,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 32,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 33,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 34,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 35,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\ntest\nSessions\nGET SUPPORT\n\nREFRESH\n\nDatabase\n\nagentos-db\n\nTable\n\nagno_sessions\nView:\nAll\nEXPORT\n\tSESSION NAME\t\nUPDATED AT\n\n\n\t\n\nPrimeAgent official audit text turn one. Reply OK only.\n\n\t\n\n24 May 2026, 04:03\n\n\n\n\t\n\n帮我参考这样的逻辑去做骨灰盒的选品\n\n\t\n\n24 May 2026, 04:01\n\n\n\n\t\n\nRead the text in this pasted image.\n\n\t\n\n24 May 2026, 03:40\n\n\n\n\t\n\nRead the text in this uploaded image.\n\n\t\n\n24 May 2026, 03:40\n\n\n\n\t\n\nimages: [object Object], input_content: Please describe this uploaded image briefly.\n\n\t\n\n24 May 2026, 03:39\n\n\n\n\t\n\n你好\n\n\t\n\n24 May 2026, 03:31\n\n\n\n\t\n\nPrimeAgent audit: remember code beta-431. Reply OK only.\n\n\t\n\n23 May 2026, 19:51\n\n\n\n\t\n\nprimeagent-audit-renamed\n\n\t\n\n23 May 2026, 19:51\n\n\n\n\t\n\n请用一句话回答：PrimeAgent chat test alpha-724\n\n\t\n\n23 May 2026, 19:33\n\n\n\n\t\n\n第一轮请只回复代码 lambda-502，不要调用任何工具。\n\n\t\n\n23 May 2026, 19:25\n\n\n\n\t\n\ninput_content: 请记住临时代码 theta-918，只回复已记住。\n\n\t\n\n23 May 2026, 19:21"
+  },
+  {
+    "name": "Traces",
+    "url": "https://os.agno.com/traces?group_by=sessions&page=1&limit=25",
+    "title": "Traces | Agno",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 13,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 17,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 19,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 20,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 21,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Sessions",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 22,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Runs",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 23,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "All time",
+        "type": "button"
+      },
+      {
+        "aria": "Export",
+        "disabled": false,
+        "href": null,
+        "i": 24,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Export",
+        "type": "button"
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\ntest\nTraces\nGET SUPPORT\n\nREFRESH\n\nDatabase\n\nagentos-db\n\nSESSIONS\n\nRUNS\n\nEnter filter query\n\nALL TIME\nSESSION ID\tUSER\tAGENT/TEAM/WORKFLOW\t\nTRACES\n\t\nFIRST TRACE\n\t\nLAST TRACE\n\n\n\n0b670c2c-ef59-472b-be3b-46c3e78fe5cb\n\n\t\n\nlixudong@lights.tw\n\n\t\n\nweb-search\n\n\t\n\n2\n\n\t\n\n24 May 2026, 04:03\n\n\t\n\n24 May 2026, 04:03\n\n\n\n\nprimeagent-ui-13979a87-4f9a-45df-a438-f0aae58e5229\n\n\t\n\nlocal_user\n\n\t\n\nweb-search\n\n\t\n\n1\n\n\t\n\n24 May 2026, 04:03\n\n\t\n\n24 May 2026, 04:03\n\n\n\n\nprimeagent-ui-7532a0fc-8317-4ee7-a724-5f14b28586e3\n\n\t\n\nlocal_user\n\n\t\n\nweb-search\n\n\t\n\n1\n\n\t\n\n24 May 2026, 03:41\n\n\t\n\n24 May 2026, 03:41\n\n\n\n\nprimeagent-ui-63a3ef49-d6b4-4b1a-a88c-2b318f667905\n\n\t\n\nlocal_user\n\n\t\n\nweb-search\n\n\t\n\n1\n\n\t\n\n24 May 2026, 03:40\n\n\t\n\n24 May 2026, 03:40\n\n\n\n\nprimeagent-ui-cb525dd5-ecd8-405b-922d-013dc94a32dd\n\n\t\n\nlocal_user\n\n\t\n\nweb-search\n\n\t\n\n1\n\n\t\n\n24 May 2026, 03:39\n\n\t\n\n24 May 2026, 03:39\n\n\n\n\nprimeagent-ui-34d721a3-2613-4c0c-a2be-4437380a8fa6\n\n\t\n\nlocal_user\n\n\t\n\nweb-search\n\n\t\n\n1\n\n\t\n\n24 May 2026, 03:31\n\n\t\n\n24 May 2026, 03:31\n\n\n\n\nprimeagent-ui-deb03415-6aef-43cb-9d11-b6b15408ea4c\n\n\t\n\nlocal_user\n\n\t\n\nweb-search\n\n\t\n\n2\n\n\t\n\n23 May 2026, 19:51\n\n\t\n\n23 May 2026, 19:51\n\n\n\n\nprimeagent-ui-8f19675c-d8b9-4ec5-ae2c-5869750ea601\n\n\t\n\nlocal_user\n\n\t\n\nweb-search\n\n\t\n\n2\n\n\t\n\n23 May 2026, 19:50\n\n\t\n\n23 May 2026, 19:51\n\n\n\n\nprimeagent-ui-9eb8e4fe-35ed-4599-a380-1fd7db1adfeb\n\n\t\n\nlocal_user\n\n\t\n\nweb-search\n\n\t\n\n2\n\n\t\n\n23 May 2026, 19:33\n\n\t\n\n23 May 2026, 19:33\n\n\n\n\nprimeagent-ui-857e8807-f281-47f9-a197-acb24a4833dc\n\n\t\n\nlocal_user\n\n\t\n\nweb-search\n\n\t\n\n2\n\n\t\n\n23 May 2026, 19:25\n\n\t\n\n23 May 2026, 19:25\n\n\n\n\nprimeagent-ui-65190d36-b734-4a2a-951d-433e63a82b10\n\n\t\n\nlocal_user\n\n\t\n\nweb-search\n\n\t\n\n1\n\n\t\n\n23 May 2026, 19:21\n\n\t\n\n23 May 2026, 19:21"
+  },
+  {
+    "name": "Studio",
+    "url": "https://os.agno.com/studio/agents",
+    "title": "Agno",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/studio/agents",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Agents",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/studio/teams",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Teams",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/studio/workflows",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Workflows",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/studio/registry",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Registry",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 13,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 17,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 19,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 20,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 21,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "",
+        "i": 22,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Studio",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 23,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 24,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 25,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 26,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Contact us",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 27,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Contact us",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 28,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Refresh Page",
+        "type": null
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nAgents\n\nTeams\n\nWorkflows\n\nRegistry\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\ntest\nStudio\nAgents\nGET SUPPORT\n\nREFRESH\n\nSomething went wrong\n\nWe've been alerted and are working on getting things back to normal.\n\nCONTACT US\nREFRESH PAGE"
+  },
+  {
+    "name": "Memory",
+    "url": "https://os.agno.com/memory?sort_by=updated_at_desc&page=1&limit=25",
+    "title": "Memory | Agno",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 13,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 17,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 19,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 20,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 21,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 22,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Updated at",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 23,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 24,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 25,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 26,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 27,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 28,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 29,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 30,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 31,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 32,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 33,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 34,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 35,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 36,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 37,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": true,
+        "href": null,
+        "i": 38,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 39,
+        "placeholder": null,
+        "tag": "INPUT",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 40,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com/memory/overview",
+        "i": 41,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Learn more",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 42,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Learn more",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 43,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Create memory",
+        "type": "button"
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\ntest\nMemory\nGET SUPPORT\n\nREFRESH\n\nDatabase\n\nagentos-db\n\nTable\n\nagno_memories\n\tCONTENT\tTOPICS\t\nUPDATED AT\n\n\n\t\n\nUser prefers receiving notifications via email rather than SMS, especially for project updates and team communications\n\n\t\nPREFERENCES\n+3\n\t\n\n15 Jan 2025, 14:16\n\n\n\n\t\n\nCompleted machine learning certification from Stanford Online. Expertise in Python, TensorFlow, and deep learning algorithms\n\n\t\nEDUCATION\n+4\n\t\n\n14 Jan 2025, 10:30\n\n\n\n\t\n\nWeekly team standup meetings are scheduled every Monday at 9 AM PST. Key topics include sprint progress and blockers\n\n\t\nMEETINGS\n+4\n\t\n\n13 Jan 2025, 16:45\n\n\n\n\t\n\nCurrently working on the new authentication system using OAuth 2.0 and JWT tokens. Priority deadline is end of January\n\n\t\nPROJECT\n+4\n\t\n\n12 Jan 2025, 09:20\n\n\n\n\t\n\nLives in San Francisco, CA. Timezone is Pacific Standard Time (PST). Prefers meetings between 10 AM - 4 PM local time\n\n\t\nLOCATION\n+4\n\t\n\n11 Jan 2025, 13:15\n\n\n\n\t\n\nEmergency contact is Sarah Johnson (spouse) at +1-555-0123. Also has backup contact: David Chen (brother) at +1-555-0456\n\n\t\nEMERGENCY\n+3\n\t\n\n10 Jan 2025, 11:30\n\n\n\n\t\n\nAllergic to shellfish and nuts. Dietary preference is vegetarian. Enjoys Mediterranean and Asian cuisine\n\n\t\nHEALTH\n+4\n\t\n\n9 Jan 2025, 15:42\n\n\n\n\t\n\nGoal for 2025: Lead a cross-functional team project and mentor 2 junior developers. Also planning to speak at 3 tech conferences\n\n\t\nGOALS\n+5\n\t\n\n8 Jan 2025, 08:25\n\n\n\n\t\n\nPrefers dark mode for all applications. Uses VS Code with Dracula theme. Keyboard shortcuts enthusiast\n\n\t\nPREFERENCES\n+4\n\t\n\n7 Jan 2025, 17:18\n\n\n\n\t\n\nRecently migrated the user database from MySQL to PostgreSQL. Improved query performance by 40% and reduced downtime\n\n\t\nDATABASE\n+4\n\t\n\n6 Jan 2025, 12:55\n\n\n\n\t\n\nCoffee enthusiast - drinks 3 cups per day, prefers light roast Ethiopian beans. Local favorite is Blue Bottle Coffee\n\n\t\nCOFFEE\n+4\n\t\n\n5 Jan 2025, 14:22\n\n\n\n\t\n\nFluent in English and Spanish. Learning Japanese through Duolingo. Plans to take JLPT N3 exam in December 2025\n\n\t\n\t\n\n4 Jan 2025, 10:33\n\n\n\n\t\n\nEnjoys hiking and photography during weekends. Favorite trails are in Marin Headlands and Point Reyes\n\n\t\n\t\n\n3 Jan 2025, 16:47\n\n\n\n\t\n\nBirthday is March 15th. Prefers small gatherings over large parties. Favorite cake flavor is chocolate with raspberry filling\n\n\t\n\t\n\n2 Jan 2025, 09:11\n\n\n\n\t\n\nDrives a Tesla Model 3. Commutes to office 3 days per week. Prefers r"
+  },
+  {
+    "name": "Knowledge",
+    "url": "https://os.agno.com/knowledge?sort_by=updated_at_desc&page=1&limit=25",
+    "title": "Knowledge | Agno",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 13,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 17,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 19,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 20,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 21,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 22,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Updated at",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 23,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 24,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 25,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 26,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 27,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 28,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 29,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 30,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 31,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 32,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 33,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 34,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 35,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 36,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 37,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 38,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 39,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 40,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 41,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 42,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 43,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 44,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 45,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 46,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": true,
+        "href": null,
+        "i": 47,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 48,
+        "placeholder": null,
+        "tag": "INPUT",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 49,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\ntest\nKnowledge\nGET SUPPORT\n\nREFRESH\n\n\tNAME\t\nCONTENT TYPE\n\tMETADATA\tSTATUS\t\nUPDATED AT\n\n\n\t\n\nhttp://localhost:7777\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 12:50\n\n\n\n\t\n\nModel Metrics\n\n\t\n\nFile\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nModel Metrics\n\n\t\n\nFile\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nToken Metrics\n\n\t\n\nFile\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nToken Metrics\n\n\t\n\nFile\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nModel Metrics\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nModel Metrics\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nModel Metrics\n\n\t\n\nFile\n\n\t\n\t\n\t\n\n29 Jul 2025, 12:50\n\n\n\n\t\n\nModel Metrics\n\n\t\n\nFile\n\n\t\nKEY = VALUE\n+2\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nToken Metrics\n\n\t\n\nFile\n\n\t\nKEY = VALUE\n+2\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nToken Metrics\n\n\t\n\nFile\n\n\t\nKEY = VALUE\n+2\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nToken Metrics\n\n\t\n\nFile\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n\n\n\t\n\nhttps://docs.agno.com/models/introduction\n\n\t\n\nWeb\n\n\t\n\t\n\t\n\n29 Jul 2025, 05:50\n\n/\n2\nNo instance found\n\nPlease add instance to view knowledge"
+  },
+  {
+    "name": "Metrics",
+    "url": "https://os.agno.com/metrics",
+    "title": "Metrics | Agno",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 13,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 17,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 19,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 20,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 21,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "EXPORT",
+        "type": "button"
+      },
+      {
+        "aria": "Select previous month",
+        "disabled": false,
+        "href": null,
+        "i": 22,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Select previous month",
+        "type": "button"
+      },
+      {
+        "aria": "Select next month",
+        "disabled": true,
+        "href": null,
+        "i": 23,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Select next month",
+        "type": "button"
+      },
+      {
+        "aria": "Export",
+        "disabled": false,
+        "href": null,
+        "i": 24,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Export",
+        "type": "button"
+      },
+      {
+        "aria": "Export",
+        "disabled": false,
+        "href": null,
+        "i": 25,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Export",
+        "type": "button"
+      },
+      {
+        "aria": "Export",
+        "disabled": false,
+        "href": null,
+        "i": 26,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Export",
+        "type": "button"
+      },
+      {
+        "aria": "Export",
+        "disabled": false,
+        "href": null,
+        "i": 27,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Export",
+        "type": "button"
+      },
+      {
+        "aria": "Export",
+        "disabled": false,
+        "href": null,
+        "i": 28,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Export",
+        "type": "button"
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\ntest\nMetrics\nGET SUPPORT\n\nREFRESH\n\nDatabase\n\nagentos-db\n\nTable\n\nagno_metrics\nEXPORT\n\nMAY 2026\n\nTotal tokens\n\n44.6K\n1\n8\n15\n22\n29\n0\n7.5K\n15K\n22.5K\n30K\n\nUsers\n\n3\n1\n8\n15\n22\n29\n0\n1\n2\n3\n4\n\nAgent Runs\n\n16\n1\n8\n15\n22\n29\n0\n3\n6\n9\n12\n\nAgent Sessions\n\n11\n1\n8\n15\n22\n29\n0\n2\n4\n6\n8\n\nTeam Runs\n\nNO DATA AVAILABLE YET\n\nTeam Sessions\n\nNO DATA AVAILABLE YET\n\nWorkflow Runs\n\nNO DATA AVAILABLE YET\n\nWorkflow Sessions\n\nNO DATA AVAILABLE YET\n\nModel runs\n\n16\nMODEL RUNS16\n\ngpt-5.4\n\n100%\n\n8"
+  },
+  {
+    "name": "Evaluation",
+    "url": "https://os.agno.com/evaluation?sort_by=updated_at_desc&type=all&page=1&limit=25",
+    "title": "Evaluations | Agno",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 13,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 17,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 19,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 20,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 21,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "View:All",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 22,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 23,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Updated at",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 24,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 25,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 26,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 27,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 28,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 29,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 30,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 31,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 32,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 33,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 34,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 35,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 36,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 37,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 38,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 39,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 40,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com/features/evals/overview",
+        "i": 41,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Learn more",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 42,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Learn more",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 43,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Run Evaluation",
+        "type": "button"
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\ntest\nEvaluation\nGET SUPPORT\n\nREFRESH\n\nDatabase\n\nagentos-db\n\nTable\n\nagno_eval_runs\nView:\nAll\n\tEVALUATION NAME\tAGENT/TEAM\tMODEL\tTYPE\t\nUPDATED AT\n\n\n\t\n\ntest\n\n\t\n\neeee9f55-61d2-4e4e-9072-361c38aa7087\n\n\t\n\ngpt-4.1\n\n\t\n\nPerformance\n\n\t\n\n5 Aug 2025, 14:09\n\n\n\n\t\n\ntest\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\ngpt-4o\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nff\n\n\t\n\n82268f3c-8a21-47da-97ac-b5f897757305\n\n\t\n\ngpt-4.1\n\n\t\n\nAccuracy\n\n\t\n\n3 Aug 2025, 17:51\n\n\n\n\t\n\ntest\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\ngpt-4o\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nTeam Reliability Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\ngpt-4o\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nTeam Reliability Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\ngpt-4o\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nTeam Reliability Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\ngpt-4o\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nInstantiation Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\ngpt-4o\n\n\t\n\nPerformance\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nTeam Reliability Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\nclaude-3-5-sonnet-20240620\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nTeam Reliability Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\ngpt-4o\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nAgent Reliability Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\nclaude-3-5-sonnet-20240620\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nAgent Reliability Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\nclaude-3-5-sonnet-20240620\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nInstantiation Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\ngemini-2.0-flash-001\n\n\t\n\nPerformance\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nInstantiation Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\nclaude-3-5-sonnet-20240620\n\n\t\n\nPerformance\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nAgent Reliability Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\ngemini-2.0-flash-001\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nAgent Reliability Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\ngpt-4o\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\n\n\n\t\n\nAgent Reliability Evaluation\n\n\t\n\n3017b021-4fcd-4a4a-87de-7260e324776a\n\n\t\n\nclaude-3-5-sonnet-20240620\n\n\t\n\nReliability\n\n\t\n\n5 Aug 2025, 14:08\n\nNo evaluations run\n\nRun and inspect evaluations.\nVisit our docs for more information.\n"
+  },
+  {
+    "name": "Approvals",
+    "url": "https://os.agno.com/approvals?status=all&page=1&limit=25",
+    "title": "Approvals | Agno",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 13,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 17,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 19,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 20,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 21,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "View:All",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 22,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "DENY",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 23,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "APPROVE",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 24,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "DENY",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 25,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "APPROVE",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 26,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "DENY",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 27,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "APPROVE",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 28,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "DENY",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 29,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "APPROVE",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 30,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "DENY",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 31,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "APPROVE",
+        "type": null
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\ntest\nApprovals\nGET SUPPORT\n\nREFRESH\n\nApprovals\nView:\nAll\n\nweb_search\n\nResearch Agent\n\n24 Feb 2025\n\nquery: latest AI research papers 2026\n\nDENY\nAPPROVE\n\n\n\nexecute_sql\n\nData Pipeline Team\n\n24 Feb 2025\n\nquery: DELETE FROM staging_table WHERE created_at < NOW() - INTERVAL 30 DAY\n\nDENY\nAPPROVE\n\n\n\nsend_email\n\nEmail Agent\n\n24 Feb 2025\n\nto: team@example.com, subject: Weekly Report Summary\n\n\n\n\ndeploy_service\n\nDeployment Workflow\n\n23 Feb 2025\n\nservice: api-gateway, environment: production\n\n\n\n\nprocess_payment\n\nFinance Agent\n\n24 Feb 2025\n\namount: 15000, currency: USD, vendor: Cloud Services\n\nDENY\nAPPROVE\n\n\n\npublish_article\n\nContent Team\n\n23 Feb 2025\n\ntitle: Q1 Product Update, channel: blog\n\n\n\n\nscale_cluster\n\nInfrastructure Agent\n\n24 Feb 2025\n\ncluster: prod-us-east, replicas: 10\n\nDENY\nAPPROVE\n\n\n\ncreate_user_account\n\nOnboarding Workflow\n\n23 Feb 2025\n\nemail: new.hire@company.com, role: engineer\n\n\n\n\nrevoke_access\n\nSecurity Agent\n\n24 Feb 2025\n\nuser: former.employee@company.com, scope: all\n\nDENY\nAPPROVE\n\n\n\nsend_campaign\n\nMarketing Team\n\n23 Feb 2025\n\ncampaign: Spring Promo, audience: all_users\n\nNo approvals found\n\nApprovals will appear here when agents request them."
+  },
+  {
+    "name": "Scheduler",
+    "url": "https://os.agno.com/scheduler",
+    "title": "Scheduler | Agno",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 13,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 17,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 19,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 20,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 21,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 22,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 23,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 24,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 25,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 26,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 27,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 28,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 29,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 30,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 31,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 32,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 33,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 34,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 35,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": "Enable schedule",
+        "disabled": false,
+        "href": null,
+        "i": 36,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Enable schedule",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com/agent-os/scheduler/overview",
+        "i": 37,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Learn more",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 38,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Learn more",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 39,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "CREATE SCHEDULE",
+        "type": "button"
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\ntest\nScheduler\nGET SUPPORT\n\nREFRESH\n\nScheduler\nENABLED\n\tNAME\tCRON\tENDPOINT\t\nNEXT RUN\n\t\nUPDATED AT\n\n\n\t\n\nDaily Summary Report\n\n\t\n\n0 9 * * *\n\n\t\n\n/v1/agents/summary/runs\n\n\t\n\n15 Jun 2025, 16:00 UTC\n\n\t\n\n-\n\n\n\n\t\n\nHourly Health Check\n\n\t\n\n0 * * * *\n\n\t\n\n/v1/agents/health/runs\n\n\t\n\n15 Jun 2025, 21:00 UTC\n\n\t\n\n-\n\n\n\n\t\n\nWeekly Data Sync\n\n\t\n\n0 2 * * 1\n\n\t\n\n/v1/agents/sync/runs\n\n\t\n\n16 Jun 2025, 09:00 UTC\n\n\t\n\n-\n\n\n\n\t\n\nNightly Cleanup\n\n\t\n\n0 3 * * *\n\n\t\n\n/v1/agents/cleanup/runs\n\n\t\n\n15 Jun 2025, 04:00 UTC\n\n\t\n\n-\n\n\n\n\t\n\nMonthly Analytics\n\n\t\n\n0 0 1 * *\n\n\t\n\n/v1/agents/analytics/runs\n\n\t\n\n1 Jul 2025, 00:00 UTC\n\n\t\n\n-\n\n\n\n\t\n\nBi-hourly Index Refresh\n\n\t\n\n0 */2 * * *\n\n\t\n\n/v1/agents/index/runs\n\n\t\n\n15 Jun 2025, 23:00 UTC\n\n\t\n\n-\n\n\n\n\t\n\nDaily Model Evaluation\n\n\t\n\n30 22 * * *\n\n\t\n\n/v1/agents/eval/runs\n\n\t\n\n16 Jun 2025, 05:30 UTC\n\n\t\n\n-\n\n\n\n\t\n\nWeekly Backup\n\n\t\n\n0 4 * * 0\n\n\t\n\n/v1/agents/backup/runs\n\n\t\n\n23 Jun 2025, 04:00 UTC\n\n\t\n\n-\n\n\n\n\t\n\nQuarterly Compliance Audit\n\n\t\n\n0 6 1 1,4,7,10 *\n\n\t\n\n/v1/agents/compliance/runs\n\n\t\n\n3 Jul 2025, 00:00 UTC\n\n\t\n\n-\n\n\n\n\t\n\nDaily Customer Feedback Digest\n\n\t\n\n0 8 * * *\n\n\t\n\n/v1/agents/feedback-digest/runs\n\n\t\n\n16 Jun 2025, 00:00 UTC\n\n\t\n\n-\n\n\n\n\t\n\nBi-weekly Model Retraining\n\n\t\n\n0 1 */14 * *\n\n\t\n\n/v1/agents/retraining/runs\n\n\t\n\n17 Jun 2025, 01:00 UTC\n\n\t\n\n-\n\n\n\n\t\n\nHourly Cache Warmup\n\n\t\n\n15 * * * *\n\n\t\n\n/v1/agents/cache-warmup/runs\n\n\t\n\n15 Jun 2025, 22:10 UTC\n\n\t\n\n-\n\n\n\n\t\n\nMonthly Incident Review\n\n\t\n\n30 10 2 * *\n\n\t\n\n/v1/agents/incident-review/runs\n\n\t\n\n1 Jul 2025, 23:50 UTC\n\n\t\n\n-\n\n\n\n\t\n\nDaily Error Log Digest\n\n\t\n\n0 7 * * *\n\n\t\n\n/v1/agents/error-digest/runs\n\n\t\n\n15 Jun 2025, 23:00 UTC\n\n\t\n\n-\n\n\n\n\t\n\nWeekly Security Scan\n\n\t\n\n0 1 * * 6\n\n\t\n\n/v1/agents/security-scan/runs\n\n\t\n\n21 Jun 2025, 06:20 UTC\n\n\t\n\n-\n\n\n\n\t\n\nMonthly Churn Analysis\n\n\t\n\n0 5 3 * *\n\n\t\n\n/v1/agents/churn-analysis/runs\n\n\t\n\n3 Jul 2025, 02:20 UTC\n\n\t\n\n-\n\nNo schedules found\n\nCreate and manage your schedules here.\n\nLEARN MORE\nCREATE SCHEDULE"
+  },
+  {
+    "name": "Settings",
+    "url": "https://os.agno.com/settings/os",
+    "title": "AgentOS settings | Agno",
+    "controls": [
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 0,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SskeFree",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 1,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/",
+        "i": 2,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Home",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/chat",
+        "i": 3,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Chat",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/sessions",
+        "i": 4,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Sessions",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/traces",
+        "i": 5,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Traces",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 6,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Studio",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/memory",
+        "i": 7,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Memory",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/knowledge",
+        "i": 8,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Knowledge",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/metrics",
+        "i": 9,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Metrics",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/evaluation",
+        "i": 10,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Evaluation",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/approvals",
+        "i": 11,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Approvals",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/scheduler",
+        "i": 12,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Scheduler",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 13,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Settings",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/settings/profile",
+        "i": 14,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Profile",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/settings/organization",
+        "i": 15,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Organization",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/settings/os",
+        "i": 16,
+        "placeholder": null,
+        "tag": "A",
+        "text": "OS & Security",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/settings/roles",
+        "i": 17,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Roles",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/settings/billing",
+        "i": 18,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Billing",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com",
+        "i": 19,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://discord.gg/4MtYHHrgA8",
+        "i": 20,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://github.com/agno-agi/agno",
+        "i": 21,
+        "placeholder": null,
+        "tag": "A",
+        "text": "",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 22,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "test",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "/settings",
+        "i": 23,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Settings",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "mailto:support@agno.com",
+        "i": 24,
+        "placeholder": null,
+        "tag": "A",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 25,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "GET SUPPORT",
+        "type": null
+      },
+      {
+        "aria": "Refresh page",
+        "disabled": false,
+        "href": null,
+        "i": 26,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "REFRESH",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 27,
+        "placeholder": "Your AgentOS name",
+        "tag": "INPUT",
+        "text": "Your AgentOS name",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": true,
+        "href": null,
+        "i": 28,
+        "placeholder": "No value available",
+        "tag": "INPUT",
+        "text": "No value available",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 29,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": "Protocol",
+        "disabled": false,
+        "href": null,
+        "i": 30,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "http://",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 31,
+        "placeholder": null,
+        "tag": "SELECT",
+        "text": "http://https://",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 32,
+        "placeholder": "localhost:8000",
+        "tag": "INPUT",
+        "text": "localhost:8000",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": true,
+        "href": null,
+        "i": 33,
+        "placeholder": "Set or generate a security key",
+        "tag": "INPUT",
+        "text": "Set or generate a security key",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 34,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com/agent-os/security/overview#basic-authentication",
+        "i": 35,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Learn more",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 36,
+        "placeholder": "Add a description for your AgentOS",
+        "tag": "TEXTAREA",
+        "text": "Add a description for your AgentOS",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 37,
+        "placeholder": "Add tags to make your AgentOS easier to spot",
+        "tag": "INPUT",
+        "text": "Add tags to make your AgentOS easier to spot",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": true,
+        "href": null,
+        "i": 38,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Add tag",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 39,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 40,
+        "placeholder": "Header name (e.g., X-Custom-Auth)",
+        "tag": "INPUT",
+        "text": "Header name (e.g., X-Custom-Auth)",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 41,
+        "placeholder": "Header value",
+        "tag": "INPUT",
+        "text": "Header value",
+        "type": null
+      },
+      {
+        "aria": "Add header",
+        "disabled": true,
+        "href": null,
+        "i": 42,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "Add header",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": true,
+        "href": null,
+        "i": 43,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "SAVE",
+        "type": "submit"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 44,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "",
+        "type": "button"
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": "https://docs.agno.com/agent-os/security/overview#role-based-access-control-rbac",
+        "i": 45,
+        "placeholder": null,
+        "tag": "A",
+        "text": "Learn more",
+        "type": null
+      },
+      {
+        "aria": null,
+        "disabled": false,
+        "href": null,
+        "i": 46,
+        "placeholder": null,
+        "tag": "BUTTON",
+        "text": "DELETE AgentOS",
+        "type": null
+      }
+    ],
+    "body": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\nProfile\n\nOrganization\n\nOS & Security\n\nRoles\n\nBilling\n\n黎旭\n\n黎 旭东\n\ntest\nSettings\nAgentOS\nGET SUPPORT\n\nREFRESH\n\nAgentOS\n\nAGENTOS NAME\nAGENTOS ID\nENDPOINT URL\nhttp://\nhttp://\nhttps://\nSECURITY KEY\n\nSet the security key as OS_SECURITY_KEY in your .env file or export it in your terminal. Learn more\n\nDESCRIPTION\nTAGS\nADD TAG\nT T\nCUSTOM HEADERS\n\nAdd custom headers to pass through your infrastructure (e.g., X-Forwarded-For, X-Custom-Auth)\n\nSAVE\n\nToken-Based Authorization (JWT)\n\nTurn on user authorization for your OS using JWT tokens. Set the generated public key as JWT_VERIFICATION_KEY in your .env file or export it in your terminal. Learn more\n\nDanger zone\n\nPermanently delete this AgentOS and all its resources\n\nDELETE AGENTOS"
+  }
+]

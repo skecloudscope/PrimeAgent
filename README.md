@@ -1,109 +1,49 @@
 # PrimeAgent
 
-PrimeAgent 是面向跨境电商场景的垂类 Agent 平台。
+PrimeAgent is a local Agno OS style web console.
 
-当前阶段采用文档先行，先把产品边界、Agent 协同、能力沉淀、第三方连接和权限治理梳理清楚，再进入工程实现。
+The boundary is intentional:
 
-## 当前定位
+- The frontend mirrors the official `os.agno.com` shell: Chat, Sessions, Traces, Studio, Memory, Knowledge, Metrics, Evaluation, Approvals, and Scheduler.
+- The browser calls the same-origin `/api/agno/*` bridge.
+- The bridge transparently forwards to the AgentOS API from `agent-platform` on port `8000`.
+- The frontend only displays Agents, Teams, Workflows, sessions, traces, metrics, and other resources returned by AgentOS native endpoints. It does not invent PrimeAgent agents or custom capability names.
 
-PrimeAgent 不是简单聊天机器人，也不是固定 Workflow 工具。
+## Docker
 
-它的目标是：
-
-```text
-跨境电商开放式对话 Agent 操作系统
-```
-
-核心路径：
-
-```text
-Conversation
-  -> Intent / Goal Understanding
-  -> Clarification if needed
-  -> Capability Retrieval
-  -> Direct Tool / Agent / Team / Workflow Skeleton / Full Workflow
-  -> Tool Gateway / Approval / Audit
-  -> Skill / Tool / Team / Workflow Skeleton / Workflow 沉淀
-```
-
-## 技术方向
-
-- Frontend：Next.js + Vercel AI SDK + shadcn/ui + Tailwind CSS。
-- Backend：FastAPI。
-- Agent Runtime：Agno。
-- Connector / OAuth：Nango。
-- Identity：Clerk。
-- Database：Postgres + pgvector。
-- Storage：Cloudflare R2。
-- First Integration：Shopify。
-
-## 当前目录
-
-```text
-AGENTS.md
-  项目级开发约束，后续写代码和改架构时必须优先遵守。
-
-PRD/
-  最终产品和架构 PRD。
-
-cases/
-  跨境电商业务 case、用户场景、压力测试样例。
-
-tasks/
-  技术验证任务、agent 协同验证、架构 check 任务。
-
-*.md
-  早期架构判断、源码阅读总结、验证路线图。
-```
-
-## 重要边界
-
-- Agno 是 Agent/Team/Workflow runtime，不是租户、审批、OAuth、能力治理事实源。
-- Nango 是 OAuth、connection、token refresh 和 provider token 管理层，不是 Skill、Memory、Workflow 优化系统。
-- 本仓库不会直接 vendor `agno/` 和 `nango/` 上游源码；正式实现时应使用 `runtime/agno/` 和 `integrations/nango/` 做产品级适配层。
-- 没有非常明确且经过确认的必要性，不要轻易修改 Agno 或 Nango 上游源码；默认围绕它们做适配、封装、组合和治理。
-- 每次开发任务都必须先做架构归位：确认能力应该落在 Agno runtime、Nango connector、FastAPI 业务主控、前端交互还是 packages 领域包，不能为了速度牺牲边界。
-- 所有外部读写动作必须经过 Tool Gateway、权限校验、审批策略和审计日志。
-- Workflow 只用于稳定、高频、可测试、可审批的流程；开放探索优先沉淀为 Skill、Tool、Team、Workflow Skeleton 或 Capability Candidate。
-
-## 开发前必读
-
-- [AGENTS.md](/Users/ske/PrimeAgent/AGENTS.md)
-- [PRD/01-跨境电商Agent平台详细PRD.md](/Users/ske/PrimeAgent/PRD/01-跨境电商Agent平台详细PRD.md)
-- [tasks/README.md](/Users/ske/PrimeAgent/tasks/README.md)
-- [cases/README.md](/Users/ske/PrimeAgent/cases/README.md)
-
-## 本地开发
-
-安装前端依赖：
+From the repo root:
 
 ```bash
-npm install
+docker compose up --build
 ```
 
-安装后端依赖：
+Then open:
+
+- Frontend: http://localhost:3000
+- AgentOS config: http://localhost:8000/config
+- AgentOS docs: http://localhost:8000/docs
+
+The root compose uses the same backend shape as `agent-platform/compose.yaml`: Postgres plus `agent-platform` AgentOS on port `8000`, with the frontend bridge pointing to `http://agentos-api:8000` inside Docker.
+
+If you already have `agent-platform/compose.yaml` running on port `8000`, run only the frontend locally:
 
 ```bash
-python3 -m venv .venv
-.venv/bin/pip install -r apps/api/requirements-dev.txt
+cd frontend
+INTERNAL_AGNO_AGENTOS_BASE_URL=http://localhost:8000 NEXT_PUBLIC_AGNO_AGENTOS_BASE_URL=/api/agno npm run dev
 ```
 
-启动后端：
+## Native AgentOS Mapping
 
-```bash
-npm run dev:api
-```
-
-启动前端：
-
-```bash
-npm run dev:web
-```
-
-检查与测试：
-
-```bash
-npm run build:web
-npm run check:api
-npm run test:api
-```
+- Chat targets: `/config`, `/agents`, `/teams`, `/workflows`
+- Agent run: `/agents/{agent_id}/runs`
+- Team run: `/teams/{team_id}/runs`
+- Workflow run: `/workflows/{workflow_id}/runs`
+- Sessions: `/sessions`
+- Traces: `/traces`
+- Memory: `/memories`
+- Knowledge: `/knowledge/config`
+- Metrics: `/metrics`
+- Evaluation: `/evals`
+- Approvals: `/approvals`
+- Scheduler: `/schedules`
+- Studio surfaces: `/components`, `/registry`

@@ -1,0 +1,240 @@
+{
+  "url": "https://os.agno.com/scheduler",
+  "title": "Scheduler | Agno",
+  "controls": [
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "S ske Free"
+    },
+    {
+      "disabled": false,
+      "href": "/",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "disabled": false,
+      "href": "/chat",
+      "tag": "a",
+      "text": "Chat"
+    },
+    {
+      "disabled": false,
+      "href": "/sessions",
+      "tag": "a",
+      "text": "Sessions"
+    },
+    {
+      "disabled": false,
+      "href": "/traces",
+      "tag": "a",
+      "text": "Traces"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Studio"
+    },
+    {
+      "disabled": false,
+      "href": "/memory",
+      "tag": "a",
+      "text": "Memory"
+    },
+    {
+      "disabled": false,
+      "href": "/knowledge",
+      "tag": "a",
+      "text": "Knowledge"
+    },
+    {
+      "disabled": false,
+      "href": "/metrics",
+      "tag": "a",
+      "text": "Metrics"
+    },
+    {
+      "disabled": false,
+      "href": "/evaluation",
+      "tag": "a",
+      "text": "Evaluation"
+    },
+    {
+      "disabled": false,
+      "href": "/approvals",
+      "tag": "a",
+      "text": "Approvals"
+    },
+    {
+      "disabled": false,
+      "href": "/scheduler",
+      "tag": "a",
+      "text": "Scheduler"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Settings"
+    },
+    {
+      "disabled": false,
+      "href": "https://docs.agno.com",
+      "tag": "a",
+      "text": ""
+    },
+    {
+      "disabled": false,
+      "href": "https://discord.gg/4MtYHHrgA8",
+      "tag": "a",
+      "text": ""
+    },
+    {
+      "disabled": false,
+      "href": "https://github.com/agno-agi/agno",
+      "tag": "a",
+      "text": ""
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "agentos"
+    },
+    {
+      "disabled": false,
+      "href": "mailto:support@agno.com",
+      "tag": "a",
+      "text": "GET SUPPORT"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "GET SUPPORT"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "REFRESH"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Enable schedule"
+    },
+    {
+      "disabled": false,
+      "href": "https://docs.agno.com/agent-os/scheduler/overview",
+      "tag": "a",
+      "text": "LEARN MORE"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "LEARN MORE"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "CREATE SCHEDULE"
+    }
+  ]
+}

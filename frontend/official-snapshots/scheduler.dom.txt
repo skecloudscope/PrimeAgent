@@ -1,0 +1,295 @@
+- complementary:
+  - button "S ske Free":
+    - generic: S
+    - paragraph: ske
+    - paragraph: Free
+  - button:
+  - navigation:
+    - list:
+      - link "Home":
+        - /url: /
+        - paragraph: Home
+    - list:
+      - link "Chat":
+        - /url: /chat
+        - paragraph: Chat
+      - link "Sessions":
+        - /url: /sessions
+        - paragraph: Sessions
+      - link "Traces":
+        - /url: /traces
+        - paragraph: Traces
+      - button "Studio":
+        - paragraph: Studio
+      - link "Memory":
+        - /url: /memory
+        - paragraph: Memory
+      - link "Knowledge":
+        - /url: /knowledge
+        - paragraph: Knowledge
+      - link "Metrics":
+        - /url: /metrics
+        - paragraph: Metrics
+      - link "Evaluation":
+        - /url: /evaluation
+        - paragraph: Evaluation
+      - link "Approvals":
+        - /url: /approvals
+        - paragraph: Approvals
+      - link "Scheduler":
+        - /url: /scheduler
+        - paragraph: Scheduler
+    - list:
+      - button "Settings":
+        - paragraph: Settings
+    - link:
+      - /url: https://docs.agno.com
+    - link:
+      - /url: https://discord.gg/4MtYHHrgA8
+    - link:
+      - /url: https://github.com/agno-agi/agno
+    - generic: 黎旭
+    - paragraph: 黎 旭东
+- navigation "breadcrumb":
+  - list:
+    - button "agentos Active":
+      - generic: agentos
+      - status "Active"
+    - link "Scheduler" [disabled]
+- link "GET SUPPORT":
+  - /url: mailto:support@agno.com
+  - button "GET SUPPORT":
+    - text: GET SUPPORT
+- button "Refresh page":
+  - paragraph: REFRESH
+- heading "Scheduler" [level=3]
+- table:
+  - rowgroup:
+    - row "Enabled Name Cron Endpoint Next run Updated at":
+      - columnheader "Enabled":
+        - generic: Enabled
+      - columnheader "Name"
+      - columnheader "Cron"
+      - columnheader "Endpoint"
+      - columnheader "Next run":
+        - generic: Next run
+      - columnheader "Updated at":
+        - generic: Updated at
+  - rowgroup:
+    - row "Enable schedule Daily Summary Report 0 9 * * * /v1/agents/summary/runs 15 Jun 2025, 16:00 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Daily Summary Report":
+        - paragraph: Daily Summary Report
+      - cell "0 9 * * *":
+        - paragraph: 0 9 * * *
+      - cell "/v1/agents/summary/runs":
+        - paragraph: /v1/agents/summary/runs
+      - cell "15 Jun 2025, 16:00 UTC":
+        - paragraph: 15 Jun 2025, 16:00 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Hourly Health Check 0 * * * * /v1/agents/health/runs 15 Jun 2025, 21:00 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Hourly Health Check":
+        - paragraph: Hourly Health Check
+      - cell "0 * * * *":
+        - paragraph: 0 * * * *
+      - cell "/v1/agents/health/runs":
+        - paragraph: /v1/agents/health/runs
+      - cell "15 Jun 2025, 21:00 UTC":
+        - paragraph: 15 Jun 2025, 21:00 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Weekly Data Sync 0 2 * * 1 /v1/agents/sync/runs 16 Jun 2025, 09:00 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Weekly Data Sync":
+        - paragraph: Weekly Data Sync
+      - cell "0 2 * * 1":
+        - paragraph: 0 2 * * 1
+      - cell "/v1/agents/sync/runs":
+        - paragraph: /v1/agents/sync/runs
+      - cell "16 Jun 2025, 09:00 UTC":
+        - paragraph: 16 Jun 2025, 09:00 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Nightly Cleanup 0 3 * * * /v1/agents/cleanup/runs 15 Jun 2025, 04:00 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Nightly Cleanup":
+        - paragraph: Nightly Cleanup
+      - cell "0 3 * * *":
+        - paragraph: 0 3 * * *
+      - cell "/v1/agents/cleanup/runs":
+        - paragraph: /v1/agents/cleanup/runs
+      - cell "15 Jun 2025, 04:00 UTC":
+        - paragraph: 15 Jun 2025, 04:00 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Monthly Analytics 0 0 1 * * /v1/agents/analytics/runs 1 Jul 2025, 00:00 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Monthly Analytics":
+        - paragraph: Monthly Analytics
+      - cell "0 0 1 * *":
+        - paragraph: 0 0 1 * *
+      - cell "/v1/agents/analytics/runs":
+        - paragraph: /v1/agents/analytics/runs
+      - cell "1 Jul 2025, 00:00 UTC":
+        - paragraph: 1 Jul 2025, 00:00 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Bi-hourly Index Refresh 0 */2 * * * /v1/agents/index/runs 15 Jun 2025, 23:00 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Bi-hourly Index Refresh":
+        - paragraph: Bi-hourly Index Refresh
+      - cell "0 */2 * * *":
+        - paragraph: 0 */2 * * *
+      - cell "/v1/agents/index/runs":
+        - paragraph: /v1/agents/index/runs
+      - cell "15 Jun 2025, 23:00 UTC":
+        - paragraph: 15 Jun 2025, 23:00 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Daily Model Evaluation 30 22 * * * /v1/agents/eval/runs 16 Jun 2025, 05:30 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Daily Model Evaluation":
+        - paragraph: Daily Model Evaluation
+      - cell "30 22 * * *":
+        - paragraph: 30 22 * * *
+      - cell "/v1/agents/eval/runs":
+        - paragraph: /v1/agents/eval/runs
+      - cell "16 Jun 2025, 05:30 UTC":
+        - paragraph: 16 Jun 2025, 05:30 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Weekly Backup 0 4 * * 0 /v1/agents/backup/runs 23 Jun 2025, 04:00 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Weekly Backup":
+        - paragraph: Weekly Backup
+      - cell "0 4 * * 0":
+        - paragraph: 0 4 * * 0
+      - cell "/v1/agents/backup/runs":
+        - paragraph: /v1/agents/backup/runs
+      - cell "23 Jun 2025, 04:00 UTC":
+        - paragraph: 23 Jun 2025, 04:00 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Quarterly Compliance Audit 0 6 1 1,4,7,10 * /v1/agents/compliance/runs 3 Jul 2025, 00:00 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Quarterly Compliance Audit":
+        - paragraph: Quarterly Compliance Audit
+      - cell "0 6 1 1,4,7,10 *":
+        - paragraph: 0 6 1 1,4,7,10 *
+      - cell "/v1/agents/compliance/runs":
+        - paragraph: /v1/agents/compliance/runs
+      - cell "3 Jul 2025, 00:00 UTC":
+        - paragraph: 3 Jul 2025, 00:00 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Daily Customer Feedback Digest 0 8 * * * /v1/agents/feedback-digest/runs 16 Jun 2025, 00:00 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Daily Customer Feedback Digest":
+        - paragraph: Daily Customer Feedback Digest
+      - cell "0 8 * * *":
+        - paragraph: 0 8 * * *
+      - cell "/v1/agents/feedback-digest/runs":
+        - paragraph: /v1/agents/feedback-digest/runs
+      - cell "16 Jun 2025, 00:00 UTC":
+        - paragraph: 16 Jun 2025, 00:00 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Bi-weekly Model Retraining 0 1 */14 * * /v1/agents/retraining/runs 17 Jun 2025, 01:00 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Bi-weekly Model Retraining":
+        - paragraph: Bi-weekly Model Retraining
+      - cell "0 1 */14 * *":
+        - paragraph: 0 1 */14 * *
+      - cell "/v1/agents/retraining/runs":
+        - paragraph: /v1/agents/retraining/runs
+      - cell "17 Jun 2025, 01:00 UTC":
+        - paragraph: 17 Jun 2025, 01:00 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Hourly Cache Warmup 15 * * * * /v1/agents/cache-warmup/runs 15 Jun 2025, 22:10 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Hourly Cache Warmup":
+        - paragraph: Hourly Cache Warmup
+      - cell "15 * * * *":
+        - paragraph: 15 * * * *
+      - cell "/v1/agents/cache-warmup/runs":
+        - paragraph: /v1/agents/cache-warmup/runs
+      - cell "15 Jun 2025, 22:10 UTC":
+        - paragraph: 15 Jun 2025, 22:10 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Monthly Incident Review 30 10 2 * * /v1/agents/incident-review/runs 1 Jul 2025, 23:50 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Monthly Incident Review":
+        - paragraph: Monthly Incident Review
+      - cell "30 10 2 * *":
+        - paragraph: 30 10 2 * *
+      - cell "/v1/agents/incident-review/runs":
+        - paragraph: /v1/agents/incident-review/runs
+      - cell "1 Jul 2025, 23:50 UTC":
+        - paragraph: 1 Jul 2025, 23:50 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Daily Error Log Digest 0 7 * * * /v1/agents/error-digest/runs 15 Jun 2025, 23:00 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Daily Error Log Digest":
+        - paragraph: Daily Error Log Digest
+      - cell "0 7 * * *":
+        - paragraph: 0 7 * * *
+      - cell "/v1/agents/error-digest/runs":
+        - paragraph: /v1/agents/error-digest/runs
+      - cell "15 Jun 2025, 23:00 UTC":
+        - paragraph: 15 Jun 2025, 23:00 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Weekly Security Scan 0 1 * * 6 /v1/agents/security-scan/runs 21 Jun 2025, 06:20 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Weekly Security Scan":
+        - paragraph: Weekly Security Scan
+      - cell "0 1 * * 6":
+        - paragraph: 0 1 * * 6
+      - cell "/v1/agents/security-scan/runs":
+        - paragraph: /v1/agents/security-scan/runs
+      - cell "21 Jun 2025, 06:20 UTC":
+        - paragraph: 21 Jun 2025, 06:20 UTC
+      - cell "-":
+        - paragraph: "-"
+    - row "Enable schedule Monthly Churn Analysis 0 5 3 * * /v1/agents/churn-analysis/runs 3 Jul 2025, 02:20 UTC -":
+      - cell "Enable schedule":
+        - switch "Enable schedule"
+      - cell "Monthly Churn Analysis":
+        - paragraph: Monthly Churn Analysis
+      - cell "0 5 3 * *":
+        - paragraph: 0 5 3 * *
+      - cell "/v1/agents/churn-analysis/runs":
+        - paragraph: /v1/agents/churn-analysis/runs
+      - cell "3 Jul 2025, 02:20 UTC":
+        - paragraph: 3 Jul 2025, 02:20 UTC
+      - cell "-":
+        - paragraph: "-"
+- heading "No schedules found" [level=3]
+- paragraph: Create and manage your schedules here.
+- link "Learn more":
+  - /url: https://docs.agno.com/agent-os/scheduler/overview
+  - button "Learn more":
+    - text: Learn more
+- button "CREATE SCHEDULE":
+  - text: CREATE SCHEDULE
+- region "Notifications alt+T"

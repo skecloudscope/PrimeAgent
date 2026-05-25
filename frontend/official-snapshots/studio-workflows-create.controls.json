@@ -1,0 +1,222 @@
+{
+  "url": "https://os.agno.com/studio/workflows/create",
+  "title": "New Workflow | Agno",
+  "controls": [
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "S ske Free"
+    },
+    {
+      "disabled": false,
+      "href": "/",
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "disabled": false,
+      "href": "/chat",
+      "tag": "a",
+      "text": "Chat"
+    },
+    {
+      "disabled": false,
+      "href": "/sessions",
+      "tag": "a",
+      "text": "Sessions"
+    },
+    {
+      "disabled": false,
+      "href": "/traces",
+      "tag": "a",
+      "text": "Traces"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Studio"
+    },
+    {
+      "disabled": false,
+      "href": "/studio/agents",
+      "tag": "a",
+      "text": "Agents"
+    },
+    {
+      "disabled": false,
+      "href": "/studio/teams",
+      "tag": "a",
+      "text": "Teams"
+    },
+    {
+      "disabled": false,
+      "href": "/studio/workflows",
+      "tag": "a",
+      "text": "Workflows"
+    },
+    {
+      "disabled": false,
+      "href": "/studio/registry",
+      "tag": "a",
+      "text": "Registry"
+    },
+    {
+      "disabled": false,
+      "href": "/memory",
+      "tag": "a",
+      "text": "Memory"
+    },
+    {
+      "disabled": false,
+      "href": "/knowledge",
+      "tag": "a",
+      "text": "Knowledge"
+    },
+    {
+      "disabled": false,
+      "href": "/metrics",
+      "tag": "a",
+      "text": "Metrics"
+    },
+    {
+      "disabled": false,
+      "href": "/evaluation",
+      "tag": "a",
+      "text": "Evaluation"
+    },
+    {
+      "disabled": false,
+      "href": "/approvals",
+      "tag": "a",
+      "text": "Approvals"
+    },
+    {
+      "disabled": false,
+      "href": "/scheduler",
+      "tag": "a",
+      "text": "Scheduler"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "Settings"
+    },
+    {
+      "disabled": false,
+      "href": "https://docs.agno.com",
+      "tag": "a",
+      "text": ""
+    },
+    {
+      "disabled": false,
+      "href": "https://discord.gg/4MtYHHrgA8",
+      "tag": "a",
+      "text": ""
+    },
+    {
+      "disabled": false,
+      "href": "https://github.com/agno-agi/agno",
+      "tag": "a",
+      "text": ""
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "agentos"
+    },
+    {
+      "disabled": false,
+      "href": "",
+      "tag": "a",
+      "text": "Studio"
+    },
+    {
+      "disabled": false,
+      "href": "mailto:support@agno.com",
+      "tag": "a",
+      "text": "GET SUPPORT"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "GET SUPPORT"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "REFRESH"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "a",
+      "text": "Workflows"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "input",
+      "text": "New Workflow"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "LEARN MORE IN OUR DOCS"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "ADD STEPS"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "DETAILS"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "COMPONENTS"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "CLOSE"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "STEPS Create a complex workflow step with different execution types."
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "AGENTS Create a workflow step with a specific agent"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "CREATE AGENT"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "tag": "button",
+      "text": "FUNCTIONS Create a workflow step with a specific function"
+    }
+  ]
+}

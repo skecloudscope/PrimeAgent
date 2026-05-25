@@ -1,0 +1,191 @@
+[
+  {
+    "label": "chat",
+    "bodyCW": 1280,
+    "bodySW": 1280,
+    "frame": {
+      "height": 692,
+      "left": 207,
+      "right": 1266,
+      "width": 1059
+    },
+    "offenders": [],
+    "shell": {
+      "height": 720,
+      "left": 0,
+      "right": 1280,
+      "width": 1280
+    },
+    "url": "http://localhost:3000/",
+    "vh": 720,
+    "vw": 1280
+  },
+  {
+    "label": "sessions",
+    "bodyCW": 1280,
+    "bodySW": 1280,
+    "frame": {
+      "height": 692,
+      "left": 207,
+      "right": 1266,
+      "width": 1059
+    },
+    "offenders": [],
+    "shell": {
+      "height": 720,
+      "left": 0,
+      "right": 1280,
+      "width": 1280
+    },
+    "url": "http://localhost:3000/",
+    "vh": 720,
+    "vw": 1280
+  },
+  {
+    "label": "traces",
+    "bodyCW": 1280,
+    "bodySW": 1280,
+    "frame": {
+      "height": 692,
+      "left": 207,
+      "right": 1266,
+      "width": 1059
+    },
+    "offenders": [],
+    "shell": {
+      "height": 720,
+      "left": 0,
+      "right": 1280,
+      "width": 1280
+    },
+    "url": "http://localhost:3000/",
+    "vh": 720,
+    "vw": 1280
+  },
+  {
+    "label": "metrics",
+    "bodyCW": 1280,
+    "bodySW": 1280,
+    "frame": {
+      "height": 692,
+      "left": 207,
+      "right": 1266,
+      "width": 1059
+    },
+    "offenders": [],
+    "shell": {
+      "height": 720,
+      "left": 0,
+      "right": 1280,
+      "width": 1280
+    },
+    "url": "http://localhost:3000/",
+    "vh": 720,
+    "vw": 1280
+  },
+  {
+    "label": "studio",
+    "bodyCW": 1280,
+    "bodySW": 1280,
+    "frame": {
+      "height": 692,
+      "left": 207,
+      "right": 1266,
+      "width": 1059
+    },
+    "offenders": [],
+    "shell": {
+      "height": 720,
+      "left": 0,
+      "right": 1280,
+      "width": 1280
+    },
+    "url": "http://localhost:3000/",
+    "vh": 720,
+    "vw": 1280
+  },
+  {
+    "label": "studio-teams",
+    "bodyCW": 1280,
+    "bodySW": 1280,
+    "frame": {
+      "height": 692,
+      "left": 207,
+      "right": 1266,
+      "width": 1059
+    },
+    "offenders": [],
+    "shell": {
+      "height": 720,
+      "left": 0,
+      "right": 1280,
+      "width": 1280
+    },
+    "url": "http://localhost:3000/",
+    "vh": 720,
+    "vw": 1280
+  },
+  {
+    "label": "studio-workflows",
+    "bodyCW": 1280,
+    "bodySW": 1280,
+    "frame": {
+      "height": 692,
+      "left": 207,
+      "right": 1266,
+      "width": 1059
+    },
+    "offenders": [],
+    "shell": {
+      "height": 720,
+      "left": 0,
+      "right": 1280,
+      "width": 1280
+    },
+    "url": "http://localhost:3000/",
+    "vh": 720,
+    "vw": 1280
+  },
+  {
+    "label": "studio-registry",
+    "bodyCW": 1280,
+    "bodySW": 1280,
+    "frame": {
+      "height": 692,
+      "left": 207,
+      "right": 1266,
+      "width": 1059
+    },
+    "offenders": [],
+    "shell": {
+      "height": 720,
+      "left": 0,
+      "right": 1280,
+      "width": 1280
+    },
+    "url": "http://localhost:3000/",
+    "vh": 720,
+    "vw": 1280
+  },
+  {
+    "label": "studio-agents",
+    "bodyCW": 1280,
+    "bodySW": 1280,
+    "frame": {
+      "height": 692,
+      "left": 207,
+      "right": 1266,
+      "width": 1059
+    },
+    "offenders": [],
+    "shell": {
+      "height": 720,
+      "left": 0,
+      "right": 1280,
+      "width": 1280
+    },
+    "url": "http://localhost:3000/",
+    "vh": 720,
+    "vw": 1280
+  }
+]

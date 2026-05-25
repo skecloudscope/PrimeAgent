@@ -1,0 +1,15 @@
+{
+  "accountDisplay": "none",
+  "frameX": 78,
+  "hasSkeFree": false,
+  "mainClass": "os-shell sidebar-collapsed",
+  "navDisplay": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+  ],
+  "shellDisplay": "flex",
+  "sidebarWidth": 64
+}

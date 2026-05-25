@@ -1,0 +1,124 @@
+- complementary:
+  - button "S ske Free":
+    - generic: S
+    - paragraph: ske
+    - paragraph: Free
+  - button:
+  - navigation:
+    - list:
+      - link "Home":
+        - /url: /
+        - paragraph: Home
+    - list:
+      - link "Chat":
+        - /url: /chat
+        - paragraph: Chat
+      - link "Sessions":
+        - /url: /sessions
+        - paragraph: Sessions
+      - link "Traces":
+        - /url: /traces
+        - paragraph: Traces
+      - button "Studio" [expanded]:
+        - paragraph: Studio
+      - list:
+        - link "Agents":
+          - /url: /studio/agents
+          - paragraph: Agents
+        - link "Teams":
+          - /url: /studio/teams
+          - paragraph: Teams
+        - link "Workflows":
+          - /url: /studio/workflows
+          - paragraph: Workflows
+        - link "Registry":
+          - /url: /studio/registry
+          - paragraph: Registry
+      - link "Memory":
+        - /url: /memory
+        - paragraph: Memory
+      - link "Knowledge":
+        - /url: /knowledge
+        - paragraph: Knowledge
+      - link "Metrics":
+        - /url: /metrics
+        - paragraph: Metrics
+      - link "Evaluation":
+        - /url: /evaluation
+        - paragraph: Evaluation
+      - link "Approvals":
+        - /url: /approvals
+        - paragraph: Approvals
+      - link "Scheduler":
+        - /url: /scheduler
+        - paragraph: Scheduler
+    - list:
+      - button "Settings":
+        - paragraph: Settings
+    - link:
+      - /url: https://docs.agno.com
+    - link:
+      - /url: https://discord.gg/4MtYHHrgA8
+    - link:
+      - /url: https://github.com/agno-agi/agno
+    - generic: 黎旭
+    - paragraph: 黎 旭东
+- navigation "breadcrumb":
+  - list:
+    - button "agentos Active":
+      - generic: agentos
+      - status "Active"
+    - link "Studio":
+      - /url: ""
+    - link "Workflows" [disabled]
+- link "GET SUPPORT":
+  - /url: mailto:support@agno.com
+  - button "GET SUPPORT":
+    - text: GET SUPPORT
+- button "Refresh page":
+  - paragraph: REFRESH
+- navigation "breadcrumb":
+  - list:
+    - paragraph: Workflows
+    - textbox "New Workflow"
+- paragraph: Start building your workflow
+- paragraph: Add components to define how your workflow runs. Drag and drop steps onto the canvas to get started.
+- button "LEARN MORE IN OUR DOCS"
+- button "ADD STEPS"
+- tablist:
+  - tab "Details"
+  - tab "Components" [selected]
+- button "Close":
+  - generic: Close
+- heading "Steps Create a complex workflow step with different execution types." [level=3]:
+  - button "Steps Create a complex workflow step with different execution types." [expanded]:
+    - paragraph: Steps
+    - paragraph: Create a complex workflow step with different execution types.
+- region "Steps Create a complex workflow step with different execution types.":
+  - paragraph: Step
+  - paragraph: Basic workflow step
+  - paragraph: Parallel
+  - paragraph: Run steps in parallel
+  - paragraph: Loop
+  - paragraph: Loop until condition met
+  - paragraph: Condition
+  - paragraph: Conditional branching
+  - paragraph: Router
+  - paragraph: Route based on selector
+  - paragraph: Steps
+  - paragraph: Sequential step container
+- heading "Agents Create a workflow step with a specific agent" [level=3]:
+  - button "Agents Create a workflow step with a specific agent" [expanded]:
+    - paragraph: Agents
+    - paragraph: Create a workflow step with a specific agent
+- region "Agents Create a workflow step with a specific agent":
+  - paragraph: code-search
+  - paragraph: web-search
+- button "Create Agent":
+  - text: Create Agent
+- heading "Functions Create a workflow step with a specific function" [level=3]:
+  - button "Functions Create a workflow step with a specific function" [expanded]:
+    - paragraph: Functions
+    - paragraph: Create a workflow step with a specific function
+- region "Functions Create a workflow step with a specific function"
+- region "Notifications alt+T"

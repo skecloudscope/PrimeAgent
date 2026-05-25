@@ -1,0 +1,271 @@
+{
+  "controls": [
+    {
+      "disabled": false,
+      "href": null,
+      "rect": {
+        "h": 56,
+        "w": 163,
+        "x": 0,
+        "y": 12
+      },
+      "tag": "button",
+      "text": "S ske Free"
+    },
+    {
+      "disabled": false,
+      "href": "/",
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 68
+      },
+      "tag": "a",
+      "text": "Home"
+    },
+    {
+      "disabled": false,
+      "href": "/chat",
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 121
+      },
+      "tag": "a",
+      "text": "Chat"
+    },
+    {
+      "disabled": false,
+      "href": "/sessions",
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 157
+      },
+      "tag": "a",
+      "text": "Sessions"
+    },
+    {
+      "disabled": false,
+      "href": "/traces",
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 193
+      },
+      "tag": "a",
+      "text": "Traces"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 229
+      },
+      "tag": "button",
+      "text": "Studio"
+    },
+    {
+      "disabled": false,
+      "href": "/memory",
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 265
+      },
+      "tag": "a",
+      "text": "Memory"
+    },
+    {
+      "disabled": false,
+      "href": "/knowledge",
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 301
+      },
+      "tag": "a",
+      "text": "Knowledge"
+    },
+    {
+      "disabled": false,
+      "href": "/metrics",
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 337
+      },
+      "tag": "a",
+      "text": "Metrics"
+    },
+    {
+      "disabled": false,
+      "href": "/evaluation",
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 373
+      },
+      "tag": "a",
+      "text": "Evaluation"
+    },
+    {
+      "disabled": false,
+      "href": "/approvals",
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 409
+      },
+      "tag": "a",
+      "text": "Approvals"
+    },
+    {
+      "disabled": false,
+      "href": "/scheduler",
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 445
+      },
+      "tag": "a",
+      "text": "Scheduler"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "rect": {
+        "h": 36,
+        "w": 195,
+        "x": 0,
+        "y": 498
+      },
+      "tag": "button",
+      "text": "Settings"
+    },
+    {
+      "disabled": false,
+      "href": "https://docs.agno.com",
+      "rect": {
+        "h": 16,
+        "w": 65,
+        "x": 0,
+        "y": 882
+      },
+      "tag": "a",
+      "text": ""
+    },
+    {
+      "disabled": false,
+      "href": "https://discord.gg/4MtYHHrgA8",
+      "rect": {
+        "h": 16,
+        "w": 65,
+        "x": 65,
+        "y": 882
+      },
+      "tag": "a",
+      "text": ""
+    },
+    {
+      "disabled": false,
+      "href": "https://github.com/agno-agi/agno",
+      "rect": {
+        "h": 16,
+        "w": 65,
+        "x": 130,
+        "y": 882
+      },
+      "tag": "a",
+      "text": ""
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "rect": {
+        "h": 32,
+        "w": 137,
+        "x": 224,
+        "y": 25
+      },
+      "tag": "button",
+      "text": "agentos"
+    },
+    {
+      "disabled": false,
+      "href": "mailto:support@agno.com",
+      "rect": {
+        "h": 24,
+        "w": 129,
+        "x": 517,
+        "y": 29
+      },
+      "tag": "a",
+      "text": "GET SUPPORT"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "rect": {
+        "h": 24,
+        "w": 129,
+        "x": 517,
+        "y": 29
+      },
+      "tag": "button",
+      "text": "GET SUPPORT"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "rect": {
+        "h": 24,
+        "w": 100,
+        "x": 654,
+        "y": 29
+      },
+      "tag": "button",
+      "text": "REFRESH"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "rect": {
+        "h": 29,
+        "w": 104,
+        "x": 292,
+        "y": 85
+      },
+      "tag": "button",
+      "text": "WebSearch"
+    },
+    {
+      "disabled": false,
+      "href": null,
+      "rect": {
+        "h": 45,
+        "w": 527,
+        "x": 225,
+        "y": 879
+      },
+      "tag": "textarea",
+      "text": "Ask anything..."
+    }
+  ],
+  "text": "S\n\nske\n\nFree\n\nHome\n\nChat\n\nSessions\n\nTraces\n\nStudio\n\nMemory\n\nKnowledge\n\nMetrics\n\nEvaluation\n\nApprovals\n\nScheduler\n\nSettings\n\n黎旭\n\n黎 旭东\n\nagentos\nChat\nGET SUPPORT\n\nREFRESH\n\nWebSearch\n\nNew Session\n\nEnter your input to get started with your agent.\n\nTell me about Agno's AgentOS\n\nWhat's the latest research from Anthropic?\n\nSearch for OpenAI's latest model release\n\nWEBSEARCH",
+  "title": "Agents Chat | Agno OS",
+  "url": "https://os.agno.com/chat?type=agent&id=web-search"
+}
